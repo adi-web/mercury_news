@@ -46,8 +46,8 @@ function Header() {
                             </div>
                             <div className=" col">
                                 <div className="container-button">
-                                    <button type="button" className="btn btn-primary">Primary</button>
-                                    <button type="button" className="btn btn-secondary">Secondary</button>
+                                    <button type="button" className="btn  btn-style">Subscribe</button>
+                                    <button type="button" className="btn  btn-style">Log in</button>
                                     <div className="icon-search">
                                         <i className="fa fa-search" aria-hidden="true"></i>
                                     </div>
