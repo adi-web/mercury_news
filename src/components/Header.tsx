@@ -4,8 +4,9 @@ import "./Header.css"
 function Header() {
 
     const [adi,setClick]=useState(false)// qua ho creato un stato click e la funzione setClick che mi permette di
+    const [navRight, setClickRight]=useState(false)
 
-
+    const clickUser=()=>{setClickRight(!navRight)}
     const handleClick= () =>{
         const appRoot=document.getElementById('bho');
         // @ts-ignore
@@ -55,11 +56,21 @@ function Header() {
 
                                 <div className="container-icon-button">
 
-                                    <div className="icon-user">
+                                    <div className="icon-user" onClick={clickUser}>
                                         <i className="fa fa-user" aria-hidden="true"></i>
                                     </div>
                                     <div className="icon-search">
                                         <i className="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+
+
+                                    <div className={navRight ? 'nav-menu-right active ' : 'nav-menu-right'}>
+                                        <ul className="nav">
+                                            <li>
+                                                cisdi
+                                            </li>
+                                        </ul>
+
                                     </div>
 
                                 </div>
