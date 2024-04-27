@@ -1,17 +1,26 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 .container
 {
     max-width: -webkit-fill-available;
-   margin-left: 40px;
-    margin-right: 40px;
+   margin-left: 20px;
+    margin-right: 20px;
 
 
 }
 .header{
     width: 100%;
     height: 226px;
-    background-color: yellow;
+}
 
+#second-container{
+    width: 100%;
+    height: 162px;
+}
+.border-first-nav
+{
+    border-bottom: solid;
+    border-width: thin;
 }
 .btn-style
 {
@@ -23,12 +32,14 @@
         height: 47px;
         width: 120px;
 }
+
 .btn-style:hover{
 
     background-color: blue;
     color: white;
     text-decoration: underline;
 }
+
 .first_nav, .col{
     width: 100%;
     height: 64px;
@@ -38,19 +49,7 @@
 {
     padding: 1px;
 }
-.active-title
-{
-    height: 64px;
-    text-align: center;
-    align-content: center;
-    display: block;
-}
-.first_nav{
 
-    border-style: solid;
-    border-bottom-color: blue;
-
-}
 
 .nav-menu
 {
@@ -94,31 +93,37 @@
     cursor: pointer;
 }
 
-
+.icon_nav
+{
+    cursor: pointer;
+}
 .icon_nav::after
 {
     font-family: "Helvetica Neue";
     font-size: larger;
     margin-left: 10px;
     content: "All Section";
+    font-weight: 600;
 
 
 }
 
 .title-page{
-
-    width: 100%;
-    height: 64px;
     display: none;
     text-align: center;
     align-content: center;
 
 }
-.title{
 
-    font-size:2.5vw;
+
+.active-title
+{
+    height: 64px;
+    text-align: center;
+    align-content: center;
+    display: block;
+
 }
-
 
 
 .container-button
@@ -130,20 +135,94 @@
 }
 
 
+.icon-weather::before{
+    padding-right: 0.2vw;
+    content: "68°F";
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0a0908;;
+    position: absolute;
+    padding-top: 0.5rem;
+
+}
+.icon-weather::after
+{
+    padding-left: 0.8rem;
+    font-family: "Helvetica Neue";
+    content: "Friday, April 26th 2024";
+    font-size: 1rem;
+    font-weight: 900;
+    color: #0a0908;
+    position: absolute;
+    padding-top: 0.5rem;
+
+}
+.icon-weather > i{
+    font-size: 1.9rem;
+    padding-left: 2.8rem;
+}
+
+.active-title > img , .title-page >img
+{
+    padding-top: 0.8vw;
+    width: 30vw;
+    height: 64px;
+}
+
+
+
+
+
+
+
+
+
 
 
 .middle-nav
 {
     height: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: red;
+    background-color: white;
+
+}
+
+.container-fluid > ul > li
+{
+    padding: 0.5rem;
+    font-size: 1rem ;
+    padding-top: 1rem;
+}
+.container-fluid > ul > li> a
+{
+    color: #0a0908;
+    font-weight: 700;
+}
+
+.container-weather
+{
+    height: 64px;
+    align-content: center;
+    position: relative;
+
 
 }
 .container-icon-button{
     display: none;
 }
 
+.bottom-nav{
+    align-content: center;
+    text-align: center;
+    height:60px;
+    margin-top: -5px;
+    border-bottom-style: solid ;
+    border-width: thin;
+    border-color: grey;
+}
+
+.navbar>.container-fluid{
+    justify-content: center;
+}
 
 @media only screen and (max-width: 1050px) {
 
@@ -164,7 +243,14 @@
     }
     .title-page
     {
-
         display: block;
+    }
+    .disable-title, .container-weather, .bottom-nav
+    {
+        display: none;
+    }
+    .header
+    {
+        height: 64px;
     }
 }
