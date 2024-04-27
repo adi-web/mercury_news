@@ -33,11 +33,34 @@
         width: 120px;
 }
 
-.btn-style:hover{
+.btn-style:hover, .btn-style-hidden:hover{
 
     background-color: blue;
     color: white;
     text-decoration: underline;
+}
+
+.container-btn-hidden
+{
+    width: 320px;
+    height: 60px;
+    margin: 0;
+
+
+}
+.btn-style-hidden
+{
+    background-color: #006394;
+    border-color: #006394;
+    color: white;
+    align-content: center;
+    width: 220px;
+    height: 43px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 41px;
+    font-weight: 700;
+
 }
 
 .first_nav, .col{
@@ -57,11 +80,13 @@
     width: 0px;
     transition: width 0.2s;
     white-space: nowrap;
-    background-color: purple;
-    position: absolute;
+    position: fixed;
+    background-color: white;
     left: 0px;
     top: 64px;
     opacity: unset;
+    display: block;height: auto;
+
 
 }
 .nav-menu-right{
@@ -72,15 +97,17 @@
     right: 0px;
     top:64px;
     width: 0px;
+
 }
 .active{
     z-index: 1;
     margin:0;
-    width: 250px;
+    width: 320px;
     height:100vh;
-    overflow: scroll;
+    overflow-y: scroll;
     position: fixed;
     float: left;
+
 }
 .icon-search , .icon-user
 {
@@ -209,7 +236,20 @@
 .container-icon-button{
     display: none;
 }
+.nav-hidden-style > li> .btn-style
+{
+    width: 70%;
 
+}
+
+
+
+.item-style
+{
+    margin: 10px;
+    height: 20px;
+    background-color: grey;
+}
 .bottom-nav{
     align-content: center;
     text-align: center;
@@ -218,6 +258,32 @@
     border-bottom-style: solid ;
     border-width: thin;
     border-color: grey;
+}
+
+
+.container-bottom-hidden
+{
+    margin-top:80px;
+    height: 150px;
+    border-top: solid;
+    border-width: thin;
+    margin-bottom: 70px;
+
+}
+.text-center
+{
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 60px;
+
+    font-weight: 650;
+}
+.list-group-item
+{
+    border: none;
+    padding-top: 12px;
+    font-weight: 650;
 }
 
 .navbar>.container-fluid{

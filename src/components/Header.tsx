@@ -29,51 +29,76 @@ function Header() {
                                     <i className={adi ? 'fas fa-times' : 'fas fa-bars'} aria-hidden="true"></i>
                                 </div>
 
-                                   <div className={adi ? 'nav-menu active': 'nav-menu'} >
-                                       <ul className="nav ">
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
-                                           <li>
-                                               cisdi
-                                           </li>
+                                    <div className={adi ? 'nav-menu active' : 'nav-menu'}>
+                                        <div className="container-btn-hidden">
+                                            <button className="btn  btn-style-hidden"> Subscribe Now</button>
+                                        </div>
+                                        <ul className="list-group ">
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                <span className="bi bi-house-door-fill"> Home Page</span>
 
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                News
+                                                <span className="bi bi-chevron-right"></span>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Local
+                                                <span className="bi bi-chevron-right"></span>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Obituaries
+                                                <span className="bi bi-chevron-right"></span>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Opinion
+                                                <span className="bi bi-chevron-right"></span>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Sports
+                                                <span className="bi bi-chevron-right"></span>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Tings To Do
+                                                <span className="bi bi-chevron-right"></span>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Business
+                                                <span className="bi bi-chevron-right"></span>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Real Estate
 
-                                       </ul>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Markerplace
 
-                                   </div>
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Subscribe
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Advertise
+                                            </li>
+                                            <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                Log in
+                                            </li>
+                                        </ul>
+
+                                        <div className="container-bottom-hidden">
+                                            <p className="text-center text-wrap">Get Morning Report and other email newsletters</p>
+                                            <div className="container-btn-hidden">
+                                            <button className="btn  btn-style-hidden"> Sign Up</button>
+                                        </div>
+
+                                        </div>
+
+                                    </div>
                                 </div>
 
                             </div>
                             <div className="col-6 col-md-4">
-                                <div className={adi ? 'active-title': 'title-page'}>
+                            <div className={adi ? 'active-title' : 'title-page'}>
                                     <img src="https://www.mercurynews.com/wp-content/uploads/2020/09/mn-logo.svg"
                                          alt="The Mercury News"/>
                                 </div>
