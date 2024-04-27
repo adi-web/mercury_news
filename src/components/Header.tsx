@@ -174,31 +174,31 @@ function Header() {
                             <div className="container-fluid ">
                                     <ul className="navbar-nav">
                                         <li className="nav-item">
-                                            <a className="nav-link">News</a>
+                                            <a className="nav-link" href="./">News</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" >Local</a>
+                                            <a className="nav-link" href="./">Local</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" >Obituaries</a>
+                                            <a className="nav-link"href="./" >Obituaries</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link">Thing To Do</a>
+                                            <a className="nav-link" href="./" >Thing To Do</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" >Business</a>
+                                            <a className="nav-link" href="./">Business</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link">Real Estate</a>
+                                            <a className="nav-link" href="./">Real Estate</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" >Opinion</a>
+                                            <a className="nav-link" href="./">Opinion</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" >Marketplace</a>
+                                            <a className="nav-link" href="./">Marketplace</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" >e-Edition</a>
+                                            <a className="nav-link" href="./">e-Edition</a>
                                         </li>
 
                                     </ul>
