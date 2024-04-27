@@ -3,16 +3,26 @@ import "./Header.css"
 
 function Header() {
 
-    const [adi,setClick]=useState(false)// qua ho creato un stato click e la funzione setClick che mi permette di
+    const [navLeft,setClick]=useState(false)// qua ho creato un stato click e la funzione setClick che mi permette di
     const [navRight, setClickRight]=useState(false)
 
     const clickUser=()=>{setClickRight(!navRight)}
     const handleClick= () =>{
-        //const appRoot=document.getElementById('second-container');
-        // @ts-ignore
-        //appRoot.style.opacity=0.5;
+        const appRoot=document.getElementById('second-container');
 
-        setClick(!adi)}
+        if (navLeft==true)
+        {
+            // @ts-ignore
+            appRoot.style.background="none";
+        }
+        else
+        {
+            // @ts-ignore
+            appRoot.style.background="rgba(0,0,0,0.5)";
+        }
+
+
+        setClick(!navLeft)}
 
 
     return (
@@ -20,16 +30,16 @@ function Header() {
 
         <div className="nav_wrapper_primary">
             <div className="nav_wrapper_secondary">
-                <div className={adi ? 'first_nav border-first-nav':'first_nav'}>
+                <div className={navLeft ? 'first_nav border-first-nav':'first_nav'}>
                     <div className="container">
                         <div className="row">
                             <div className="col ">
                                 <div>
                                 <div className="icon_nav" onClick={handleClick}>
-                                    <i className={adi ? 'fas fa-times' : 'fas fa-bars'} aria-hidden="true"></i>
+                                    <i className={navLeft ? 'fas fa-times' : 'fas fa-bars'} aria-hidden="true"></i>
                                 </div>
 
-                                    <div className={adi ? 'nav-menu active' : 'nav-menu'}>
+                                    <div className={navLeft ? 'nav-menu active' : 'nav-menu'}>
                                         <div className="container-btn-hidden">
                                             <button className="btn  btn-style-hidden"> Subscribe Now</button>
                                         </div>
@@ -44,11 +54,11 @@ function Header() {
                                             </li>
                                             <li className="list-group-item d-flex justify-content-between align-items-center">
                                                 Local
-                                                <span className="bi bi-chevron-right"></span>
+                                                <span className="bi bi-chevron-right "></span>
                                             </li>
                                             <li className="list-group-item d-flex justify-content-between align-items-center">
                                                 Obituaries
-                                                <span className="bi bi-chevron-right"></span>
+                                                <span className="bi bi-chevron-right "></span>
                                             </li>
                                             <li className="list-group-item d-flex justify-content-between align-items-center">
                                                 Opinion
@@ -98,7 +108,7 @@ function Header() {
 
                             </div>
                             <div className="col-6 col-md-4">
-                            <div className={adi ? 'active-title' : 'title-page'}>
+                            <div className={navLeft ? 'active-title' : 'title-page'}>
                                     <img src="https://www.mercurynews.com/wp-content/uploads/2020/09/mn-logo.svg"
                                          alt="The Mercury News"/>
                                 </div>
@@ -171,7 +181,7 @@ function Header() {
 
                 </div>
                 <div id="second-container">
-                <div className="middle-nav">
+                    <div className="middle-nav">
                     <div className="container">
                         <div className="row">
                             <div className="col-6 col-md-4">
