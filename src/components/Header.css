@@ -85,19 +85,22 @@
     left: 0px;
     top: 64px;
     opacity: unset;
-    display: block;height: auto;
-
+    display: block;
+    height: auto;
 
 }
 .nav-menu-right{
     position: absolute;
     overflow: hidden;
     transition: width 0.2s;
-    background-color:purple;
+    background-color:white;
     right: 0px;
     top:64px;
     width: 0px;
 
+}
+.container-empty{
+    height: 250px;
 }
 .active{
     z-index: 1;
@@ -212,7 +215,7 @@
 {
     padding: 0.5rem;
     font-size: 1rem ;
-    padding-top: 1rem;
+
 }
 .container-fluid > ul > li> a
 {
@@ -285,6 +288,29 @@
     justify-content: center;
 }
 
+.container-nav-trending > p{
+
+    color: dodgerblue;
+    margin-right: 45px;
+    font-size: 0.98rem;
+    height: 60px;
+}
+
+.container-nav-trending
+{
+
+
+    display: flex;
+    font-size: 0.98vw;
+    height: 30px;
+}
+.weather-inside
+{
+    display: none;
+    padding-left: 12px;
+}
+
+
 @media only screen and (max-width: 1050px) {
 
     .container-button{
@@ -302,14 +328,15 @@
     .icon-search{
         padding-left: 10px;
     }
-    .title-page
+    .title-page,.weather-inside
     {
         display: block;
     }
-    .disable-title, .container-weather, .bottom-nav
+    .disable-title, .container-weather, .bottom-nav,.container-nav-trending,#second-container
     {
         display: none;
     }
+
     .header
     {
         height: 64px;

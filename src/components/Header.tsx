@@ -6,11 +6,25 @@ function Header() {
     const [navLeft,setClick]=useState(false)// qua ho creato un stato click e la funzione setClick che mi permette di
     const [navRight, setClickRight]=useState(false)
 
-    const clickUser=()=>{setClickRight(!navRight)}
-    const handleClick= () =>{
-        const appRoot=document.getElementById('second-container');
+    const clickUser=()=>{
 
-        if (navLeft==true)
+        if(navRight==false && navLeft==true){
+            setClick(!navLeft)
+            setClickRight(!navRight);
+        }
+        else {
+            setClickRight(!navRight);
+        }
+
+        disablePage();
+
+    }
+
+
+
+    const disablePage = () => {
+        const appRoot=document.getElementById('second-container');
+        if (navLeft==true || navRight==true)
         {
             // @ts-ignore
             appRoot.style.background="none";
@@ -21,8 +35,22 @@ function Header() {
             appRoot.style.background="rgba(0,0,0,0.5)";
         }
 
+    };
+    const handleClick= () =>{
 
-        setClick(!navLeft)}
+
+        if(navRight==true && navLeft==false){
+        setClick(!navLeft)
+        setClickRight(!navRight);
+        }
+        else {
+            setClick(!navLeft)
+        }
+
+        disablePage();
+
+
+        }
 
 
     return (
@@ -30,7 +58,7 @@ function Header() {
 
         <div className="nav_wrapper_primary">
             <div className="nav_wrapper_secondary">
-                <div className={navLeft ? 'first_nav border-first-nav':'first_nav'}>
+                <div className={navLeft || navRight ? 'first_nav border-first-nav':'first_nav'}>
                     <div className="container">
                         <div className="row">
                             <div className="col ">
@@ -42,6 +70,12 @@ function Header() {
                                     <div className={navLeft ? 'nav-menu active' : 'nav-menu'}>
                                         <div className="container-btn-hidden">
                                             <button className="btn  btn-style-hidden"> Subscribe Now</button>
+                                        </div>
+
+                                        <div className=" weather-inside">
+                                            <div className="icon-weather">
+                                                <i className="bi bi-moon-stars"></i>
+                                            </div>
                                         </div>
                                         <ul className="list-group ">
                                             <li className="list-group-item d-flex justify-content-between align-items-center">
@@ -96,10 +130,11 @@ function Header() {
                                         </ul>
 
                                         <div className="container-bottom-hidden">
-                                            <p className="text-center text-wrap">Get Morning Report and other email newsletters</p>
+                                            <p className="text-center text-wrap">Get Morning Report and other email
+                                                newsletters</p>
                                             <div className="container-btn-hidden">
-                                            <button className="btn  btn-style-hidden"> Sign Up</button>
-                                        </div>
+                                                <button className="btn  btn-style-hidden"> Sign Up</button>
+                                            </div>
 
                                         </div>
 
@@ -108,13 +143,13 @@ function Header() {
 
                             </div>
                             <div className="col-6 col-md-4">
-                            <div className={navLeft ? 'active-title' : 'title-page'}>
+                                <div className={navLeft ? 'active-title' : 'title-page'}>
                                     <img src="https://www.mercurynews.com/wp-content/uploads/2020/09/mn-logo.svg"
                                          alt="The Mercury News"/>
                                 </div>
                             </div>
                             <div className=" col">
-                            <div className="container-button">
+                                <div className="container-button">
                                     <button type="button" className="btn  btn-style">Subscribe</button>
                                     <button type="button" className="btn  btn-style">Log in</button>
                                     <div className="icon-search">
@@ -133,42 +168,24 @@ function Header() {
 
 
                                     <div className={navRight ? 'nav-menu-right active ' : 'nav-menu-right'}>
-                                        <ul className="nav">
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
-                                            <li>
-                                                cisdi
-                                            </li>
+                                        <div className="container-btn-hidden">
+                                            <button className="btn  btn-style-hidden"> Subscribe Now</button>
+                                        </div>
+                                        <div className="container-btn-hidden">
+                                            <button className="btn  btn-style-hidden"> Log in Now</button>
+                                        </div>
+                                        <div className="container-empty">
 
-                                        </ul>
+                                        </div>
+
+                                        <div className="container-bottom-hidden">
+                                            <p className="text-center text-wrap">Get Morning Report and other email
+                                                newsletters</p>
+                                            <div className="container-btn-hidden">
+                                                <button className="btn  btn-style-hidden"> Sign Up</button>
+                                            </div>
+
+                                        </div>
 
                                     </div>
 
@@ -185,16 +202,16 @@ function Header() {
                     <div className="container">
                         <div className="row">
                             <div className="col-6 col-md-4">
-                            <div className="container-weather">
-                                <div className="icon-weather">
-                                    <i className="bi bi-moon-stars"></i>
+                                <div className="container-weather">
+                                    <div className="icon-weather">
+                                        <i className="bi bi-moon-stars"></i>
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                             <div className="col-6 col-md-4">
                                 <div className="active-title disable-title ">
                                     <img src="https://www.mercurynews.com/wp-content/uploads/2020/09/mn-logo.svg"
-                                         alt="The Mercury News" />
+                                         alt="The Mercury News"/>
                                 </div>
                             </div>
                         </div>
@@ -202,43 +219,68 @@ function Header() {
                     </div>
 
                 </div>
+                <div className="bottom-nav">
+                    <nav className="navbar navbar-expand-lg ">
+                        <div className="container-fluid ">
+                            <ul className="navbar-nav">
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">News</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">Local</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">Obituaries</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">Thing To Do</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">Business</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">Real Estate</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">Opinion</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">Marketplace</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="./">e-Edition</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </nav>
 
 
-                    <div className="bottom-nav">
-                        <nav className="navbar navbar-expand-lg ">
-                            <div className="container-fluid ">
-                                    <ul className="navbar-nav">
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="./">News</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="./">Local</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link"href="./" >Obituaries</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="./" >Thing To Do</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="./">Business</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="./">Real Estate</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="./">Opinion</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="./">Marketplace</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="./">e-Edition</a>
-                                        </li>
+                </div>
 
-                                    </ul>
+                <div className="container-nav-trending">
 
-                            </div>
+                    <p> TRENDING: </p>
+                    <nav className="navbar navbar-expand-lg">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <a className="nav-link text-dark " href="./">Yosemite's summer prep</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-dark" href="./">King Charles'funeral</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-dark" href="./">Rattlesnake season begins</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-dark" href="./">NFL Draft winner & losers</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-dark" href="./">Backwoods Barbie mystery</a>
+                                    </li>
+
+                                </ul>
                         </nav>
 
 
