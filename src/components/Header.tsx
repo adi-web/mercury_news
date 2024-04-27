@@ -79,6 +79,7 @@ function Header() {
                                         </div>
                                         <ul className="list-group ">
                                             <li className="list-group-item d-flex justify-content-between align-items-center">
+
                                                 <span className="bi bi-house-door-fill"> Home Page</span>
 
                                             </li>
