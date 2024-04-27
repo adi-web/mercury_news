@@ -8,7 +8,7 @@ function Header() {
 
     const clickUser=()=>{setClickRight(!navRight)}
     const handleClick= () =>{
-        const appRoot=document.getElementById('second-container');
+        //const appRoot=document.getElementById('second-container');
         // @ts-ignore
         //appRoot.style.opacity=0.5;
 
