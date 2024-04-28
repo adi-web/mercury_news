@@ -8,69 +8,109 @@ function Footer() {
                 <img src="https://www.mercurynews.com/wp-content/uploads/2020/09/mn-logo.svg"
                      alt="The Mercury News"/>
             </div>
-            <div className="footer-colom">
-                <div className="colom">
-                    <div className="block-footer">
-                        <ul className="list-group">
-                            <li className=" title-block">An item</li>
-                            <li className="">A second item</li>
-                            <li className="">A third item</li>
-                            <li className="">A fourth item</li>
-                            <li className="">And a fifth one</li>
-                        </ul>
-                    </div>
-                    <div className="block-footer">
-                        <ul className="list-group">
-                            <li className=" title-block">An item</li>
-                            <li className="">A second item</li>
-                            <li className="">A third item</li>
-                            <li className="">A fourth item</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="colom">
-                    <div className="block-footer">
-                        <ul className="list-group list-group-flush">
-                            <li className=" title-block">An item</li>
-                            <li className="">A second item</li>
-                            <li className="">A third item</li>
-                            <li className="">A fourth item</li>
-                            <li className="">And a fifth one</li>
-                            <li className="">A third item</li>
-                            <li className="">A fourth item</li>
-                            <li className="">And a fifth one</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="colom">
-                    <div className="block-footer">
-                    <ul className="list-group list-group-flush">
-                        <li className=" title-block">An item</li>
-                    <li className="">A second item</li>
-                    <li className="">A third item</li>
-                    <li className="">A fourth item</li>
-                    <li className="">And a fifth one</li>
-                </ul>
-                    </div>
-            </div>
-            <div className="colom">
-                <div className="block-footer">
-                <ul className="list-group list-group-flush">
-                    <li className=" title-block">An item</li>
-                    <li className="">A second item</li>
-                    <li className="">A third item</li>
-                    <li className="">A fourth item</li>
-                    <li className="">And a fifth one</li>
-                </ul>
+            <div className="allblocks">
+                <div className="block-container grid">
+
+                    <ul className="list-group list-group-flush  top-list">
+                        <li className="  list-item-style d-flex justify-content-between align-items-centeritem-block">An
+                            item
+                        </li>
+                        <li className="  font-item d-flex justify-content-between align-items-center item-block">A
+                            second item
+                        </li>
+                        <li className=" font-item d-flex justify-content-between align-items-center item-block">A
+                            third item
+                        </li>
+                        <li className=" font-item d-flex justify-content-between align-items-center item-block">A
+                            fourth item
+                        </li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">And
+                            a fifth one
+                        </li>
+                    </ul>
+
+                    <ul className="list-group list-group-flush  top-list">
+                        <li className=" list-item-style d-flex justify-content-between align-items-centeritem-block">An
+                            item
+                        </li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A
+                            second item
+                        </li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A
+                            third item
+                        </li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A
+                            fourth item
+                        </li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">And
+                            a fifth one
+                        </li>
+                    </ul>
                 </div>
 
-                <div className="block-footer">
-                    <button className="btn  btn-style-hidden"> Subscribe Now</button>
+                <div className="second-block">
+                <div className="block-container">
+
+                    <ul className="list-group list-group-flush top-list">
+                        <li className="list-item-style d-flex justify-content-between align-items-center item-block">An item</li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A second item</li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A third item</li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A fourth item</li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">And a fifth one</li>
+                    </ul>
+
+
                 </div>
-            </div>
-            </div>
 
 
+                <div className="block-container">
+
+                    <ul className="list-group list-group-flush top-list">
+                        <li className="list-item-style d-flex justify-content-between align-items-center item-block">An item</li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A second item</li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A third item</li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">A fourth item</li>
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">And a fifth one</li>
+                    </ul>
+
+
+                </div>
+                </div>
+                <div className="third-block">
+
+                    <div className="block-container grid">
+
+                        <ul className="list-group list-group-flush  top-list">
+                            <li className="list-item-style d-flex justify-content-between align-items-center item-block">An item</li>
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">A second item</li>
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">A third item</li>
+                            <li className="font-item d-flex justify-content-between align-items-centeritem-block">A fourth item</li>
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">And a fifth one</li>
+                        </ul>
+
+                        <div className="top-list" >
+
+                            <button className=" btn btn-style btn-style-footer"> Subscribe</button>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className="terms">
+                <p> Terms of Use
+                    Cookie Policy
+                    California Notice at Collection
+                    Notice of Financial Incentive
+                    Do Not Sell/Share My Personal Information
+                    Arbitration
+                    Powered by WordPress.com VIP
+                    Copyright © 2024 MediaNews Group</p>
+
+            </div>
         </div>
     )
 }

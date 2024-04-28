@@ -10,18 +10,17 @@ function App() {
 
 
   return (
-    <div id="page" className="root-page">
-        <div id="adi" className="l">
-        <Header />
-        </div>
-        <div className="container-body">
-      <Body />
-        </div>
-        <div className="footer-container">
-      <Footer />
-        </div>
 
-    </div>
+      <>
+
+
+          <div id="adi" className="l">
+              <Header/>
+          </div>
+          <Body/>
+          <Footer/>
+
+      </>
   );
 }
 

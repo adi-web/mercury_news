@@ -88,7 +88,7 @@ function Header() {
 
         const second4=document.getElementById("second-container");
 
-        if (window.scrollY > 40) {
+        if (window.scrollY > 80) {
 
 
 
@@ -146,7 +146,7 @@ function Header() {
 
 
                 <div className={navLeft || navRight ? 'first_nav border-first-nav ' : 'first_nav '}>
-                    <div className="container">
+                    <div className="container container-inside-header">
                         <div className="row">
                             <div className="col ">
                                 <div>
@@ -225,55 +225,56 @@ function Header() {
                             <i className="bi bi-moon-stars"></i>
                         </div>
                     </div>
+
                     <ul className="list-group ">
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className=" list-item-style d-flex justify-content-between align-items-center">
 
                             <span className="bi bi-house-door-fill"> Home Page</span>
 
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center" >
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center" >
                             News
                             <span className="bi bi-chevron-right" ></span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Local
                             <span className="bi bi-chevron-right "></span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Obituaries
                             <span className="bi bi-chevron-right "></span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Opinion
                             <span className="bi bi-chevron-right"></span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Sports
                             <span className="bi bi-chevron-right"></span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Tings To Do
                             <span className="bi bi-chevron-right"></span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Business
                             <span className="bi bi-chevron-right"></span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Real Estate
 
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Markerplace
 
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Subscribe
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Advertise
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Log in
                         </li>
                     </ul>

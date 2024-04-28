@@ -1,27 +1,17 @@
 
-.root-page{
-
-    width: auto;
-    height: auto;
-
-}
-.l{
+.l,#adi{
 
     width: 100%;
     height: auto;
     background-color: white;
+    position: -webkit-sticky; /* For Safari */
     position: fixed;
-
-
-}
-
-
-.container-body{
-    height: 600px;
-    width: 100%;
-    background-color: red;
-
+    top: 0;
 
 }
 
+.footer-container
+{
+    position: relative;
+}
 
