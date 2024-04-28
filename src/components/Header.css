@@ -3,19 +3,31 @@
 .container
 {
     max-width: -webkit-fill-available;
-   margin-left: 20px;
+    margin-left: 20px;
     margin-right: 20px;
 
-
 }
+
 .header{
     width: 100%;
     height: 226px;
+    position: static;
+
+
+}
+.headersticky{
+    padding-top: 1px;
+    width: 100%;
+    height: 64px;
+    background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 #second-container{
     width: 100%;
     height: 162px;
+    position: static;
 }
 .border-first-nav
 {
@@ -46,8 +58,9 @@
     height: 60px;
     margin: 0;
 
-
 }
+
+
 .btn-style-hidden
 {
     background-color: #006394;
@@ -67,12 +80,19 @@
     width: 100%;
     height: 64px;
     align-content: center;
+
 }
+
 .col, .col-6
 {
     padding: 1px;
 }
 
+#root
+{
+    pointer-events: ;
+    overflow: hidden;
+}
 
 .nav-menu
 {
@@ -80,7 +100,7 @@
     width: 0px;
     transition: width 0.2s;
     white-space: nowrap;
-    position: fixed;
+    position: absolute;
     background-color: white;
     left: 0px;
     top: 64px;
@@ -108,7 +128,7 @@
     width: 320px;
     height:100vh;
     overflow-y: scroll;
-    position: fixed;
+    position: absolute;
     float: left;
 
 }
@@ -121,6 +141,12 @@
 .icon-search:hover ,.icon-user:hover
 {
     cursor: pointer;
+}
+.icon-greater
+{
+    margin-top: 7px;
+    padding: 5px;
+
 }
 
 .icon_nav
@@ -351,3 +377,4 @@
         height: 62px;
     }
 }
+

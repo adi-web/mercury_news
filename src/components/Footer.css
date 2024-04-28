@@ -1,0 +1,40 @@
+
+.container-title{
+    width: 100%;
+
+}
+
+
+.container-title > img
+{
+    width: 20vw;
+    height: 62px;
+    padding-left: 60px;
+}
+.container-footer
+{
+    width: 100%;
+    height: 565px ;
+    background-color: grey;
+
+}
+.block-footer{
+    border-top: #0a0908;
+    border-top: solid;
+    width: 280px;
+}
+.colom
+{
+    width: 1500px;
+    height: 375px ;
+}
+.footer-colom{
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+}
+.title-block{
+    font-weight: 900;
+    color: #0a0908;
+    cursor: pointer;
+}
