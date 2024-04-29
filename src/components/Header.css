@@ -32,8 +32,7 @@
 }
 .border-first-nav
 {
-    border-bottom: solid;
-    border-width: thin;
+
 }
 .btn-style
 {
@@ -79,9 +78,13 @@
 
 .first_nav, .col{
     width: 100%;
-    height: 64px;
+    height: auto;
     align-content: center;
 
+}
+.first_nav
+{
+    margin-top: 4px;
 }
 
 
@@ -176,7 +179,7 @@
 
 .active-title
 {
-    height: 64px;
+    height: auto;
     text-align: center;
     align-content: center;
     display: block;
@@ -184,6 +187,7 @@
 
 
 }
+
 
 .container-button
 {
@@ -372,7 +376,7 @@
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 550px) {
 
     .active-title > img , .title-page >img
     {
@@ -390,12 +394,13 @@
     }
     .container-icon-button ,.icon_nav
     {
-        font-size: 3vw;
+        font-size: 4vw;
 
     }
     .first_nav
     {
         align-content: center;
+        padding-top: 15px;
     }
 
     .list-footer
