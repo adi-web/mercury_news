@@ -24,6 +24,7 @@
 
 }
 
+
 #second-container{
     width: 100%;
     height: 162px;
@@ -87,6 +88,7 @@
 .col, .col-6
 {
     padding: 1px;
+    align-content: center;
 }
 
 #root

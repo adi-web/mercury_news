@@ -142,7 +142,7 @@ function Header() {
 
         <div className="nav_wrapper_primary">
             <div className="nav_wrapper_secondary">
-                <div className="a">
+
 
 
                 <div className={navLeft || navRight ? 'first_nav border-first-nav ' : 'first_nav '}>
@@ -209,7 +209,6 @@ function Header() {
                             </div>
                         </div>
 
-                    </div>
 
                 </div>
                 </div>
