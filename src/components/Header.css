@@ -365,6 +365,11 @@
     {
         display: none;
     }
+    .first_nav
+    {
+        align-content: center;
+        padding-top: 15px;
+    }
 
     .header
     {
