@@ -78,7 +78,7 @@
 
 .first_nav, .col{
     width: 100%;
-    height: auto;
+    height: 63px;
     align-content: center;
 
 }
@@ -132,6 +132,8 @@
     overflow-y: scroll;
     position: absolute;
     float: left;
+    border-width: thin;
+    border-top-style: solid;
 
 }
 .icon-search , .icon-user
@@ -369,6 +371,7 @@
     {
         align-content: center;
         padding-top: 15px;
+        height: 64px;
     }
 
     .header
@@ -421,6 +424,7 @@
     {
         align-content: center;
         padding-top: 15px;
+
     }
 
     .list-footer
