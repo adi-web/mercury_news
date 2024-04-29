@@ -383,6 +383,7 @@
     .container-icon-button
     {
         font-size: 3.9vw;
+        padding-top: 8px;
     }
 
     .list-footer
