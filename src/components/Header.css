@@ -384,6 +384,11 @@
     {
         font-size: 3.9vw;
         padding-top: 8px;
+
+    }
+    .first_nav
+    {
+        align-content: center;
     }
 
     .list-footer
