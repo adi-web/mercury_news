@@ -375,6 +375,14 @@
     {
         height: 64px;
     }
+    .active-title > img , .title-page >img
+    {
+        padding-top: 0.7vw;
+        width: 35vw;
+        height: auto;
+        justify-content: center;
+
+    }
 
 }
 
