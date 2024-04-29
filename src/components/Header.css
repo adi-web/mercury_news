@@ -340,7 +340,7 @@
 }
 
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 960px) {
 
     .container-button{
         display: none;
@@ -375,10 +375,20 @@
     {
         height: 64px;
     }
+    .active-title
+    {
+        padding: 0px;
+    }
+    .container-icon-button ,.icon_nav
+    {
+        font-size: 1rem;
+
+    }
+
     .active-title > img , .title-page >img
     {
-        padding-top: 0.7vw;
-        width: 35vw;
+        padding-top: 0.5vw;
+        width: 15rem;
         height: auto;
         justify-content: center;
 
@@ -391,7 +401,7 @@
     .active-title > img , .title-page >img
     {
         padding-top: 0.7vw;
-        width: 35vw;
+        width: 32vw;
         height: auto;
         justify-content: center;
 
@@ -404,7 +414,7 @@
     }
     .container-icon-button ,.icon_nav
     {
-        font-size: 4vw;
+        font-size: 3.2vw;
 
     }
     .first_nav
