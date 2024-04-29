@@ -2,16 +2,33 @@
 .l,#adi{
 
     width: 100%;
-    height: auto;
+    height: 225px;
     background-color: white;
     position: -webkit-sticky; /* For Safari */
-    position: fixed;
-    top: 0;
 
+
+}
+.al{
+    display: grid;
+    position: relative;
 }
 
 .footer-container
 {
     position: relative;
 }
+.page-body
+{
+
+
+}
+@media only screen and (max-width: 1000px) {
+    .l,#adi{
+        height:64px;
+    }
+
+}
+
+
+
 

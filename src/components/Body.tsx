@@ -3,7 +3,17 @@ import './Body.css'
 function Body() {
     return (
         <div className="body-container">
-        fdsg
+
+            <div className="primary-container">
+                <div className="principal-article">
+
+
+
+
+                </div>
+            </div>
+
+
         </div>
     )
 }

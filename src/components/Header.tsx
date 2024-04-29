@@ -88,7 +88,7 @@ function Header() {
 
         const second4=document.getElementById("second-container");
 
-        if (window.scrollY > 80) {
+        if (window.scrollY > 50) {
 
 
 

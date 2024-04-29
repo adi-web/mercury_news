@@ -13,14 +13,14 @@ function App() {
 
       <>
 
-
+        <div className="al">
           <div id="adi" className="l">
               <Header/>
           </div>
-          <Body/>
+
           <Footer/>
 
-
+        </div>
       </>
   );
 }
