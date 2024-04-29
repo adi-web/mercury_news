@@ -382,10 +382,15 @@
         justify-content: center;
 
     }
-    .container-icon-button
+    .container-inside-header
     {
-        font-size: 3.9vw;
-        padding-top: 8px;
+        margin-left: 6.5vw;
+        margin-right: 6.5vw;
+        padding: 0;
+    }
+    .container-icon-button ,.icon_nav
+    {
+        font-size: 3vw;
 
     }
     .first_nav
