@@ -12,6 +12,7 @@
     margin-right: 3vw;
 
 
+
 }
 .second-block
 {
@@ -108,10 +109,99 @@ li{
     }
 
 }
+.container-dropdown
+{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .allblocks
+    {
+        display: none;
+    }
+    .container-dropdown
+    {
+        display: block;
+        width: 100%;
+    }
+    .button-style
+    {
+        border: none;
+        font-weight: 650;
+
+    }
+    .block-dropdown
+    {
+
+        margin: 8px;
+        height: auto;
+        align-content: center;
+
+        border-top-style: solid;
+
+        border-width: 2.1px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .title-collapse
+    {
+        font-family: "Arial";
+        text-decoration: unset;
+        padding-left: 10px;
+        color: #0a0908;
+        font-weight: 700;
+        width: 400px;
+    }
+    .title-collapse:hover
+    {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .container-title
+    {
+        align-content: center;
+        text-align: center;
+        padding-left: 0;
+
+    }
+    .btn-style-footer
+    {
+        font-weight: 700;
+        font-size: larger;
+        height: 65px;
+        width: 97%;
+        margin: 8px;
+    }
+    .container-title > img
+    {
+        width: 80vw;
+        margin-left: 0;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-greater
+    {
+        border: 0;
+        float: right;
+    }
+
+    .btn-1
+    {
+        border-top-style: solid;
+        border-width: 2.1px;
+        padding-top: 12px;
+        margin: 10px;
+    }
+
+
+}
 
 .terms
 {
     border-top-style: solid;
+    border-width: thin;
     padding-top: 40px;
     padding-left: 20px;
     justify-items: center;
