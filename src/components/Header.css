@@ -381,13 +381,15 @@
     {
         width: 100vw;
         align-content: center;
+        border-bottom-style: solid;
+        border-width: thin;
 
 
 
     }
     .nav_wrapper_secondary ,.nav_wrapper_primary,.header
     {
-        height: 64px;
+        align-content:center ;
     }
 
 
@@ -423,6 +425,7 @@
         justify-content: center;
 
     }
+
     .container-inside-header
     {
         margin-left: 6.5vw;
@@ -437,6 +440,7 @@
     .first_nav
     {
         align-content: center;
+
         
 
     }
