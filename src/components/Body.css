@@ -92,7 +92,7 @@
 .img-style
 {
     width: 100%;
-    height: fit-content;
+    height: auto;
 
 }
 .a{
@@ -277,7 +277,7 @@
     }
     .img-style
     {
-        width:100%;
+
         margin: 0;
     }
 
@@ -407,10 +407,7 @@
     {
         display: block;
     }
-    .img-style
-    {
-        height:auto;
-    }
+
 
     .list-item-popular::before
     {
