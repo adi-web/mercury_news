@@ -409,7 +409,7 @@
     }
     .img-style
     {
-        height: 17vw;
+        height:auto;
     }
 
     .list-item-popular::before
