@@ -290,7 +290,7 @@ function Header() {
 
                 <div id="second-container">
                     <div id="al" className="middle-nav">
-                        <div className="container">
+                        <div className="container-fluid">
                             <div className="row">
                                 <div className="col-6 col-md-4">
                                     <div className="container-weather">

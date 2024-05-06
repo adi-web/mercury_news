@@ -6,7 +6,7 @@
 .allblocks
 {
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 500px;
     margin-left: 4vw;
     margin-right: 3vw;
@@ -96,10 +96,7 @@ li{
       display: block;
 
     }
-    .container-title
-    {
-        padding-left: 3vw;
-    }
+
     .block-container
     {
         width: 34vw;

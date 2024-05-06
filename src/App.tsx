@@ -11,17 +11,19 @@ function App() {
 
   return (
 
-      <>
+      <div className="page">
 
-        <div className="al">
+
           <div id="adi" className="l">
               <Header/>
           </div>
-
+            <div className="container-xxl container-body">
+            <Body />
+            </div>
           <Footer/>
 
-        </div>
-      </>
+
+      </div>
   );
 }
 

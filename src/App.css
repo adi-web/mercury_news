@@ -8,6 +8,14 @@
 
 
 }
+.page{
+    padding: 0.4%;
+}
+.container-body {
+
+    background-color: #eae6e6;
+
+}
 .al{
     display: grid;
     position: relative;
@@ -19,6 +27,7 @@
 }
 .page-body
 {
+
 
 
 }
