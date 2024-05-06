@@ -5,7 +5,7 @@
 .first-container
 {
 
-    width: 80%;
+    width: 85%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -16,18 +16,43 @@
 
     height: auto;
 }
+.title-headline,.list-headline
+{
+    margin-left: 1vw;
+}
 .headline-right
 {
-    background-color: #d7cece;
     height: fit-content;
 
 }
+.list-item-top
+{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: smaller;
+    padding-top: 5px;
+}
+.list-item-top::marker
+{
+  font-size: smaller;
+}
+.list-group-top
+{
+    padding-left: 20px;
+}
+
+.list-container-top
+{
+    border-top-style: solid;
+    border-width: thin;
+    margin-bottom: 20px;
+}
 .container-btn-headline
 {
+    padding-top: 25px;
+    width: 70%;
     text-align: center;
     background-color: #ecedee;
-
-
 
 }
 
@@ -40,6 +65,8 @@
 .style-img-left
 {
     width: 50%;
+
+
 }
 .card-style
 {
@@ -54,7 +81,7 @@
 }
 .container-info
 {
-    background-color: #eeeeee;
+    padding-right: 3%;
     width: 50%;
 }
 .container-top
@@ -65,6 +92,7 @@
 .img-style
 {
     width: 100%;
+    height: fit-content;
 
 }
 .a{
@@ -90,7 +118,7 @@
 .title-card
 {
     text-decoration-line: none;
-    color: grey;
+
     margin-right: 0.8vw;
 }
 .card-body-style
@@ -112,6 +140,7 @@
 }
 .most-popular,.cards
 {
+    margin-top: 80px;
     width: 80%;
     height: auto;
 }
@@ -122,8 +151,8 @@
     background-color: blue;
     color: #eeeeee;
     text-align: center;
-    width:3.5rem;
-    height: 2rem;
+    width:3.3vw;
+    height: 2.1rem;
     border-radius: 100% ;
     margin-right: 1vw;
     font-weight: 700;
@@ -133,6 +162,10 @@
 {
     padding: 0;
 
+}
+.trending-nationaly
+{
+    counter-reset: section;
 }
 .list-item-popular
 {
@@ -145,16 +178,22 @@
 }
 .title-headline
 {
-    width: 60%;
+    width: 65%;
     border-bottom-style: solid;
-    border-width: thin;
+    border-width: 2px;
     border-bottom-color: #6d6def;
     color: grey;
 }
 .list-group-headline
 {
     padding: 0;
-    width: 60%;
+    width: 65%;
+}
+.container-article-left
+{
+    border-top-style: solid;
+    border-width: thin;
+    margin-top: 10px;
 }
 .item-headline
 {
@@ -168,7 +207,14 @@
     margin-bottom: 15px;
 
 }
-
+.card-title-left
+{
+    padding-left: 0;
+    font-size: large;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+}
 .container-article-right
 {
     width: 100%;
@@ -199,6 +245,14 @@
 
 @media only screen and (max-width: 1283px)
 {
+    .card-title-left
+    {
+        font-size:2vw;
+
+        padding-left: 1vw;
+    }
+
+
 
     .grid-child
     {
@@ -223,15 +277,18 @@
     }
     .img-style
     {
-        width:95%;
+        width:100%;
         margin: 0;
-
     }
+
 }
 
 
 @media only screen and (max-width: 1200px)
 {
+
+
+
     .cards
     {
         width: 100%;
@@ -247,6 +304,13 @@
 
 @media only screen and (max-width: 1024px)
 {
+
+    .list-item-popular::before
+    {
+        width: 5rem;
+    }
+
+
     .first-container,.title-headline,.list-group-headline
     {width: 100%}
     .headline-right
@@ -257,25 +321,58 @@
     {
         display: unset;
         text-align: center;
+        border-bottom-style: solid;
+        border-width: thin;
+        padding-bottom: 10px;
     }
     .block-article
     {
         display: inline-grid;
     }
 
+    .card-title-left
+    {
+        font-size:2vw;
+
+        padding-left: 0;
+    }
+
 
 }
 @media only screen and (max-width: 800px)
 {
+
+
+    .list-item-popular::before
+    {
+        width: 5rem;
+    }
+
+    .card-title-left
+    {
+        font-size:2vw;
+
+        padding-left: 1vw;
+    }
+
+    .img-article-left
+    {
+        width: 35vw;
+    }
     .article-left,.headline-right,.title-headline,.list-group-headline,.most-popular
     {
         width: 100%;
+    }
+    .headline-right
+    {
+        padding-top: 60px;
     }
 
     .container-info,.style-img-left
     {
         width: 50%;
     }
+
     .grid-child
     {
         display: flex;
@@ -288,15 +385,32 @@
 
 @media only screen and (max-width: 580px)
 {
-    .container-info,.style-img-left
+    .card-title-left
+    {
+        font-size:3.5vw;
+        padding-left: 1vw;
+    }
+    .img-article-left
+    {
+        width: 38vw;
+
+    }
+
+
+    .container-info,.style-img-left,.container-btn-headline
     {
         width: 100%;
     }
+
     .block-article
     {
         display: block;
     }
 
+    .list-item-popular::before
+    {
+        width: 3.5rem;
+    }
     .list-group-popular
     {
         margin-bottom: 0;

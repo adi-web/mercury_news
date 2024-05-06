@@ -248,12 +248,27 @@ function Body() {
                     <div className="container-top">
 
                         <div className="container-info">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a
-                                natural lead-in to additional content. This content is a little bit
-                                longer.</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins
-                                ago</small></p>
+                            <h1  className="card-title"><a href="./" className=" text-dark text-decoration-none">Lorem ipsum dolor sit amet  tenetur aut deleniti
+                                accusamus</a>
+                            </h1>
+
+                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit  ultrices hendrerit magna.</p>
+
+                            <div className="list-container-top">
+                                <small className="text-muted">Related</small>
+                                <ul className="list-group-top">
+                                    <li className="list-item-top">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor. <small
+                                            className="text-muted">3 day ago</small></li>
+                                    <li className="list-item-top">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor. <small
+                                            className="text-muted">3 day ago</small></li>
+                                    <li className="list-item-top">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor. <small
+                                            className="text-muted">3 day ago</small></li>
+
+                                </ul>
+                            </div>
 
                         </div>
 
@@ -279,7 +294,7 @@ function Body() {
                                     />
                                 </div>
 
-                                <h5 className="card-title">his is a wider card with supporting text below as a
+                                <h5 className="card-title card-title-left">his is a wider card with supporting text below as a
                                     natural lead-in to additional content.</h5>
 
                             </div>
@@ -293,8 +308,7 @@ function Body() {
                                     />
                                 </div>
 
-                                <h5 className="card-title">his is a wider card with supporting text below as a
-                                    natural lead-in to additional content.</h5>
+                                <p className="card-title card-title-left">This is a wider card with supporting text below.</p>
 
                             </div>
 
@@ -311,8 +325,8 @@ function Body() {
                                     />
                                 </div>
 
-                                <h5 className="card-title">his is a wider card with supporting text below as a
-                                    natural lead-in to additional content.</h5>
+                                <p className="card-title card-title-left">his is a wider card with supporting text below as a
+                                    natural lead-in to additional content.</p>
 
                             </div>
 
@@ -325,8 +339,8 @@ function Body() {
                                     />
                                 </div>
 
-                                <h5 className="card-title">his is a wider card with supporting text below as a
-                                    natural lead-in to additional content.</h5>
+                                <p className="card-title card-title-left">his is a wider card with supporting text below as a
+                                    natural lead-in to additional content.</p>
 
                             </div>
 
@@ -347,8 +361,7 @@ function Body() {
                     <div className="list-headline">
 
                         <ul className="list-group-headline">
-                            <li className="item-headline">Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium.
+                            <li className="item-headline">Sed ut perspiciatis unde omnis iste natus error .
                                 <p className="card-text"><small className="text-muted">Related</small></p>
                             </li>
                             <li className="item-headline">Sed ut perspiciatis unde omnis iste natus error
@@ -367,8 +380,7 @@ function Body() {
 
                         <div className="container-btn-headline">
 
-
-                            <p>
+                            <p className="fw-bold " >
                                 Omnis iste natus error
                                 sit voluptatem accusantium
                             </p>
@@ -384,31 +396,57 @@ function Body() {
 
             <div className="most-popular">
 
+                <div className="title-card-container">
+
+                    <a className="title-card" href="./">MOST POPULAR</a>
+
+
+                </div>
                 <div className="block-popular">
                     <ul className="list-group-popular ">
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
 
                     </ul>
                     <ul className="list-group-popular ">
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
-                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            ab illo inventore</li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
 
                     </ul>
                 </div>
@@ -418,8 +456,8 @@ function Body() {
             <div className="cards">
 
 
-                    <div className="card style-card col-md-6 col-lg-6 col-xl-4">
-                        <div className="title-card-container">
+                <div className="card style-card col-md-6 col-lg-6 col-xl-4">
+                <div className="title-card-container">
 
                             <a className="title-card" href="./"> CRIME AND PUBLIC SAFETY</a>
                             <i
@@ -509,6 +547,47 @@ function Body() {
                     </div>
 
 
+            </div>
+
+
+            <div className="trending-nationaly">
+                <div className="title-card-container">
+
+                <a className="title-card" href="./">TRENDING NATIONALY</a>
+
+
+                </div>
+
+                <div className="block-popular">
+                    <ul className="list-group-popular ">
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+
+
+                    </ul>
+                    <ul className="list-group-popular ">
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+                        <li className="list-item-popular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque
+                            ab illo inventore
+                        </li>
+
+
+                    </ul>
+                </div>
             </div>
         </div>
     )

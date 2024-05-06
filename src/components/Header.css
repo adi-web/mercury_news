@@ -21,6 +21,7 @@
     height: 64px;
     background-color: white;
     border-bottom-style: solid;
+    border-width: thin;
     position: fixed;
     top: 0;
 
@@ -380,6 +381,7 @@
     {
         width: 100vw;
         align-content: center;
+
 
 
     }

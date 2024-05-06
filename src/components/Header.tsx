@@ -30,7 +30,6 @@ function Header() {
 
     const disablePage = () => {
         const appRoot=document.getElementById('second-container');
-        const appRoot2=document.getElementById('root');
         if (navLeft==true || navRight==true)
         {
             // @ts-ignore
@@ -38,6 +37,8 @@ function Header() {
 
             // @ts-ignore
             appRoot.style.pointerEvents="visible"
+
+
 
             document.body.style.overflow='scroll';
 
@@ -50,6 +51,7 @@ function Header() {
 
             // @ts-ignore
             appRoot.style.pointerEvents="none"
+
 
             document.body.style.overflow='hidden'
 
