@@ -407,6 +407,10 @@
     {
         display: block;
     }
+    .img-style
+    {
+        height: 17vw;
+    }
 
     .list-item-popular::before
     {
