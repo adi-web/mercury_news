@@ -68,6 +68,17 @@
 
 
 }
+.photos-container
+{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.v
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
 .card-style
 {
     display: flex;
@@ -138,7 +149,7 @@
     flex-wrap: wrap;
 
 }
-.most-popular,.cards
+.container-article,.cards
 {
     margin-top: 80px;
     width: 80%;
@@ -234,6 +245,12 @@
     height: auto;
 
 }
+.block-photos
+{
+    display: inline-flex;
+
+
+}
 
 .style-card
 {
@@ -252,6 +269,10 @@
         padding-left: 1vw;
     }
 
+    .img-article-left
+    {
+        width: fit-content;
+    }
 
 
     .grid-child
@@ -359,7 +380,7 @@
     {
         width: 35vw;
     }
-    .article-left,.headline-right,.title-headline,.list-group-headline,.most-popular
+    .article-left,.headline-right,.title-headline,.list-group-headline,.container-article
     {
         width: 100%;
     }
