@@ -387,7 +387,8 @@
     .first_nav
     {
         width: 100vw;
-        align-content: center;
+        align-content: end;
+        padding-top: 15px;
 
     }
     .nav_wrapper_secondary ,.nav_wrapper_primary
@@ -440,12 +441,7 @@
         font-size: 3.2vw;
 
     }
-    .first_nav
-    {
-        align-content: center;
-        
 
-    }
 
     .list-footer
     {
