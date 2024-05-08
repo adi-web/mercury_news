@@ -289,7 +289,7 @@ function Body() {
 
                             <div className="grid-child">
                                 <div className="img-article-left">
-                                    <img className="img-style" src="./placeholder.png"  />
+                                    <img className="img-style" src="./placeholder.png"/>
                                 </div>
 
                                 <h5 className="card-title card-title-left">his is a wider card with supporting text
@@ -607,50 +607,152 @@ function Body() {
 
 
                 </div>
-            <div className="  col-sm-12  col-xxl-12 " style={{display: "inline-flex"}}>
+                <div className="  col-sm-12  col-xxl-12 " style={{display: "inline-flex"}}>
 
 
-                <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
+                    <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
 
-                    <div className=" col-sm-12 col-md-6 col-lg-6 col-xl-5">
-                        <img src="./placeholder.png"
-                             className="card-img-top" alt="..."/>
-                    </div>
-
-
-                    <div className="col-md-6 col-lg-6 col-xl-7" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                        <div className=" p-2 card-body col-xl-6 ">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.</p>
+                        <div className=" col-sm-12 col-md-6 col-lg-6 col-xl-5">
+                            <img src="./placeholder.png"
+                                 className="card-img-top" alt="..."/>
                         </div>
 
-                        <div className=" col-lg-12 col-xl-5">
-                            <div className=" p-2  col-xl-12">
 
-                                <h5 className="col-12">his is a wider card with supporting text</h5>
+                        <div className="col-md-6 col-lg-6 col-xl-7" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div className=" p-2 card-body col-xl-6 ">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
                             </div>
 
+                            <div className=" col-lg-12 col-xl-5">
+                                <div className=" p-2  col-xl-12">
 
-                            <div className=" p-2 col-xl-12">
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
 
-                                <h5 className="col-12">his is a wider card with supporting text</h5>
-                            </div>
 
-                            <div className=" p-2  col-xl-12">
+                                <div className=" p-2 col-xl-12">
 
-                                <h5 className="col-12">his is a wider card with supporting text</h5>
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
+
+                                <div className=" p-2  col-xl-12">
+
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
+
                             </div>
 
                         </div>
-
                     </div>
+
                 </div>
-
-            </div>
             </div>
 
 
+            <div className="container-article">
+                <div className="title-card-container">
+
+                    <a className="title-card" href="./">PHOTOS</a>
+                    <i className="fas fa-greater-than"></i>
+
+
+                </div>
+                <div className=" col-sm-12  col-xxl-12 " style={{display: "inline-flex"}}>
+
+
+                    <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
+
+                        <div className=" col-sm-12 col-md-6 col-lg-6 col-xl-5">
+                            <img src="./placeholder.png"
+                                 className="card-img-top" alt="..."/>
+                        </div>
+
+
+                        <div className="col-md-6 col-lg-6 col-xl-7" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div className=" p-2 card-body col-xl-6 ">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+
+                            <div className=" col-lg-12 col-xl-5">
+                                <div className=" p-2  col-xl-12">
+
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
+
+
+                                <div className=" p-2 col-xl-12">
+
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
+
+                                <div className=" p-2  col-xl-12">
+
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div className="container-article">
+                <div className="title-card-container">
+
+                    <a className="title-card" href="./">PHOTOS</a>
+                    <i className="fas fa-greater-than"></i>
+
+
+                </div>
+                <div className=" col-sm-12  col-xxl-12 " style={{display: "inline-flex"}}>
+
+
+                    <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
+
+                        <div className=" col-sm-12 col-md-6 col-lg-6 col-xl-5">
+                            <img src="./placeholder.png"
+                                 className="card-img-top" alt="..."/>
+                        </div>
+
+
+                        <div className="col-md-6 col-lg-6 col-xl-7" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div className=" p-2 card-body col-xl-6 ">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+
+                            <div className=" col-lg-12 col-xl-5">
+                                <div className=" p-2  col-xl-12">
+
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
+
+
+                                <div className=" p-2 col-xl-12">
+
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
+
+                                <div className=" p-2  col-xl-12">
+
+                                    <h5 className="col-12">his is a wider card with supporting text</h5>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
             <div className="container-article">
                 <div className="title-card-container">
 

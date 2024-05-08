@@ -20,8 +20,7 @@
     width: 100%;
     height: 64px;
     background-color: white;
-    border-bottom-style: solid;
-    border-width: thin;
+
     position: fixed;
     top: 0;
 
@@ -81,7 +80,7 @@
 
 .first_nav, .col{
     width: 100vw;
-    height: 63px;
+    height: 60px;
     align-content: center;
 
 }
@@ -135,8 +134,7 @@
     overflow-y: scroll;
     position: absolute;
     float: left;
-    border-width: thin;
-    border-top-style: solid;
+
 
 }
 .icon-search , .icon-user
@@ -354,6 +352,8 @@
 
 @media only screen and (max-width: 1000px) {
 
+
+
     .container-button{
         display: none;
     }
@@ -387,9 +387,9 @@
 
 
     }
-    .nav_wrapper_secondary ,.nav_wrapper_primary,.header
+    .nav_wrapper_secondary ,.nav_wrapper_primary
     {
-        align-content:center ;
+      height: 60px;
     }
 
 
