@@ -18,7 +18,7 @@
 .headersticky{
     padding-top: 1px;
     width: 100%;
-    height: 64px;
+    height: 63px;
     background-color: white;
     border-bottom-style: solid;
     border-width: thin;
@@ -81,7 +81,7 @@
 
 .first_nav, .col{
     width: 100vw;
-    height: 64px;
+    height: 62px;
     align-content: center;
 
 }
@@ -97,6 +97,7 @@
 #root
 {
     overflow: hidden;
+
 }
 
 .nav-menu
@@ -108,7 +109,6 @@
     position: absolute;
     background-color: white;
     left: 0px;
-    top: 64px;
     opacity: unset;
     display: block;
     height: auto;
@@ -120,14 +120,16 @@
     transition: width 0.2s;
     background-color:white;
     right: 0px;
-    top:64px;
+
     width: 0px;
 
 }
 .container-empty{
     height: 250px;
 }
+
 .active{
+
     z-index: 1;
     margin:0;
     width: 320px;
@@ -137,7 +139,29 @@
     float: left;
 
 
+
 }
+.active::before
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+
+}
+#left-nav-menu::before
+{
+    left: 320px;
+
+}
+#right-nav-menu::before
+{
+    right: 320px;
+
+}
+
 .icon-search , .icon-user
 {
     align-content: center;
@@ -357,7 +381,7 @@
 
     .header
     {
-        height: 64px;
+        height: 62px;
         border-bottom-style: solid;
         border-bottom-width: thin;
     }
@@ -415,6 +439,10 @@
         height: auto;
         justify-content: center;
 
+    }
+    .active
+    {
+        border: unset;
     }
 
 }

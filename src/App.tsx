@@ -11,19 +11,18 @@ function App() {
 
   return (
 
-      <div className="page">
+      <>
 
-
-          <div id="adi" className="l">
+          <div className="header-container">
               <Header/>
           </div>
-            <div id="body-container" className="container-xxl container-body">
+            <div id="main-container" className="container-xxl  ">
             <Body />
             </div>
           <Footer/>
 
 
-      </div>
+      </>
   );
 }
 

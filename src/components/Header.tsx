@@ -30,29 +30,20 @@ function Header() {
 
     const disablePage = () => {
         const appRoot=document.getElementById('second-container');
+
+
         if (navLeft==true || navRight==true)
         {
-            // @ts-ignore
-            appRoot.style.background="none";
 
             // @ts-ignore
             appRoot.style.pointerEvents="visible"
-
-
-
             document.body.style.overflow='scroll';
-
 
         }
         else
         {
             // @ts-ignore
-            appRoot.style.background="rgba(0,0,0,0.5)";
-
-            // @ts-ignore
             appRoot.style.pointerEvents="none"
-
-
             document.body.style.overflow='hidden'
 
         }
@@ -146,7 +137,6 @@ function Header() {
             <div className="nav_wrapper_secondary">
 
 
-
                 <div className={navLeft || navRight ? 'first_nav border-first-nav ' : 'first_nav '}>
                     <div className="container container-inside-header">
                         <div className="row">
@@ -177,7 +167,7 @@ function Header() {
 
                                     <div className="icon-user" onClick={clickUser}>
                                         <i className="fa fa-user" aria-hidden="true"></i>
-                                        <i className={navRight ? "bi bi-chevron-up icon-greater":"bi bi-chevron-down icon-greater"}></i>
+                                        <i className={navRight ? "bi bi-chevron-up icon-greater" : "bi bi-chevron-down icon-greater"}></i>
 
                                     </div>
                                     <div className="icon-search">
@@ -185,38 +175,15 @@ function Header() {
                                     </div>
 
 
-                                    <div className={navRight ? 'nav-menu-right active ' : 'nav-menu-right'}>
-                                        <div className="container-btn-hidden">
-                                            <button className="btn  btn-style-hidden"> Subscribe Now</button>
-                                        </div>
-                                        <div className="container-btn-hidden">
-                                            <button className="btn  btn-style-hidden"> Log in Now</button>
-                                        </div>
-                                        <div className="container-empty">
-
-                                        </div>
-
-                                        <div className="container-bottom-hidden">
-                                            <p className="text-center text-wrap">Get Morning Report and other email
-                                                newsletters</p>
-                                            <div className="container-btn-hidden">
-                                                <button className="btn  btn-style-hidden"> Sign Up</button>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
 
 
-                </div>
+                    </div>
                 </div>
 
-
-                <div className={navLeft ? 'nav-menu active' : 'nav-menu'}>
+                <div id="left-nav-menu" className={navLeft ? 'nav-menu active' : 'nav-menu'}>
                     <div className="container-btn-hidden">
                         <button className="btn  btn-style-hidden"> Subscribe Now</button>
                     </div>
@@ -233,9 +200,9 @@ function Header() {
                             <span className="bi bi-house-door-fill"> Home Page</span>
 
                         </li>
-                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center" >
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             News
-                            <span className="bi bi-chevron-right" ></span>
+                            <span className="bi bi-chevron-right"></span>
                         </li>
                         <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
                             Local
@@ -290,8 +257,30 @@ function Header() {
                     </div>
                 </div>
 
+                <div id="right-nav-menu"  className={navRight ? 'nav-menu-right active ' : 'nav-menu-right'}>
+                    <div className="container-btn-hidden">
+                        <button className="btn  btn-style-hidden"> Subscribe Now</button>
+                    </div>
+                    <div className="container-btn-hidden">
+                        <button className="btn  btn-style-hidden"> Log in Now</button>
+                    </div>
+                    <div className="container-empty">
+
+                    </div>
+
+                    <div className="container-bottom-hidden">
+                        <p className="text-center text-wrap">Get Morning Report and other email
+                            newsletters</p>
+                        <div className="container-btn-hidden">
+                            <button className="btn  btn-style-hidden"> Sign Up</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
                 <div id="second-container">
-                    <div id="al" className="middle-nav">
+                    <div className="middle-nav">
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-6 col-md-4">
@@ -313,7 +302,7 @@ function Header() {
 
                     </div>
 
-                    <div id="b" className="bottom-nav">
+                    <div  className="bottom-nav">
                         <nav className="navbar navbar-expand-lg ">
                             <div className="container-fluid ">
                                 <ul className="navbar-nav">
@@ -353,7 +342,7 @@ function Header() {
 
                     </div>
 
-                    <div id="c" className="container-nav-trending">
+                    <div className="container-nav-trending">
 
                         <p> TRENDING: </p>
                         <nav className="navbar navbar-expand-lg">
