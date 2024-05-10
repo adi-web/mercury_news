@@ -133,13 +133,12 @@ function Header() {
     return (
         <header className={headerSticky ? 'headersticky':'header'} >
 
-        <div className="nav_wrapper_primary">
-            <div className="nav_wrapper_secondary">
+
 
 
                 <div className={navLeft || navRight ? 'first_nav border-first-nav ' : 'first_nav '}>
                     <div className="container container-inside-header">
-                        <div className="row">
+                        <div className="row row-disable">
                             <div className="col ">
                                 <div>
                                     <div className="icon_nav" onClick={handleClick}>
@@ -180,9 +179,6 @@ function Header() {
                         </div>
 
 
-                    </div>
-                </div>
-
                 <div id="left-nav-menu" className={navLeft ? 'nav-menu active' : 'nav-menu'}>
                     <div className="container-btn-hidden">
                         <button className="btn  btn-style-hidden"> Subscribe Now</button>
@@ -195,7 +191,7 @@ function Header() {
                     </div>
 
                     <ul className="list-group ">
-                        <li className=" list-item-style d-flex justify-content-between align-items-center">
+                        <li className="list-group-item list-item-style d-flex justify-content-between align-items-center">
 
                             <span className="bi bi-house-door-fill"> Home Page</span>
 
@@ -342,25 +338,25 @@ function Header() {
 
                     </div>
 
-                    <div className="container-nav-trending">
+                    <div className=" container-xxl  container-nav-trending">
 
                         <p> TRENDING: </p>
                         <nav className="navbar navbar-expand-lg">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark " href="./">Yosemite's summer prep</a>
+                                    <a className="nav-link  " href="./">Yosemite's summer prep</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="./">King Charles'funeral</a>
+                                    <a className="nav-link " href="./">King Charles'funeral</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="./">Rattlesnake season begins</a>
+                                    <a className="nav-link " href="./">Rattlesnake season begins</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="./">NFL Draft winner & losers</a>
+                                    <a className="nav-link " href="./">NFL Draft winner & losers</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="./">Backwoods Barbie mystery</a>
+                                    <a className="nav-link " href="./">Backwoods Barbie mystery</a>
                                 </li>
 
                             </ul>

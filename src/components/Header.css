@@ -3,8 +3,8 @@
 .container-inside-header
 {
     max-width: -webkit-fill-available;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 0;
+
 
 }
 
@@ -23,7 +23,6 @@
     border-bottom-style: solid;
     border-width: thin;
     position: fixed;
-    top: 0;
 
 }
 
@@ -33,10 +32,7 @@
     height: 162px;
     position: static;
 }
-.border-first-nav
-{
 
-}
 .btn-style
 {
         background-color: #006394;
@@ -50,7 +46,7 @@
 
 .btn-style:hover, .btn-style-hidden:hover{
 
-    background-color: blue;
+    background-color: #007ab8;
     color: white;
     text-decoration: underline;
 }
@@ -78,11 +74,21 @@
     font-weight: 700;
 
 }
+.row-disable
+{
+    height: 62px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
 
 .first_nav, .col{
     width: 100vw;
-    height: 62px;
+    height: auto;
     align-content: center;
+
+}
+.first_nav{
+    position: relative;
 
 }
 
@@ -141,6 +147,7 @@
 
 
 }
+
 .active::before
 {
     content: "";
@@ -149,10 +156,12 @@
     position: fixed;
     z-index: 1;
     background-color: rgba(0,0,0,0.5);
+    overflow-y: hidden;
 
 }
 #left-nav-menu::before
 {
+ 
     left: 320px;
 
 }
@@ -253,8 +262,8 @@
 
 .active-title > img , .title-page >img
 {
-    padding-top: 0.7vw;
-    width: 27vw;
+
+    width: 26vw;
     height: 62px;
 }
 
@@ -308,6 +317,10 @@
     height: 20px;
     background-color: grey;
 }
+.nav-link:hover
+{
+    color: #007ab8;
+}
 .bottom-nav{
     align-content: center;
     text-align: center;
@@ -342,6 +355,7 @@
     border: none;
     padding-top: 12px;
     font-weight: 650;
+
 }
 
 .navbar>.container-fluid{
@@ -378,6 +392,16 @@
 @media only screen and (max-width: 1000px) {
 
 
+    .row-disable
+    {
+        align-content: center;
+    }
+
+    .container-inside-header
+    {
+        margin-right: 45px;
+        margin-left: 10px;
+    }
 
     .header
     {
@@ -411,8 +435,6 @@
     .first_nav
     {
         width: 100vw;
-        align-content: end;
-        padding-top: 15px;
 
     }
     .nav_wrapper_secondary ,.nav_wrapper_primary
@@ -463,6 +485,7 @@
         margin-left: 6.5vw;
         margin-right: 6.5vw;
         padding: 0;
+
     }
     .container-icon-button ,.icon_nav
     {

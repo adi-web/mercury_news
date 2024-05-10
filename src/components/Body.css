@@ -5,7 +5,7 @@
 .first-container
 {
 
-    width: 85%;
+    width: 75%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +25,19 @@
     height: fit-content;
 
 }
+.title-article
+{
+    border-bottom: #0a0908;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+.hoverText
+{
+    color: #0a0908;
+    text-decoration-line: unset;
+
+}
+
 .list-item-top
 {
     font-family: "Font Awesome 5 Free";
@@ -41,6 +54,14 @@
     padding-left: 20px;
 }
 
+.hoverText:hover , .list-item-top:hover,
+.item-headline:hover,.list-item-popular:hover,.title-card:hover
+
+{
+
+    color: #6d6def;
+    text-decoration-color: #6d6def;
+}
 .list-container-top
 {
     border-top-style: solid;
@@ -50,16 +71,22 @@
 .container-btn-headline
 {
     padding-top: 25px;
-    width: 70%;
+    width: 75%;
     text-align: center;
     background-color: #ecedee;
 
 }
-
+.btn-headline:hover
+{
+    background-color: #007ab8;
+    color: #eeeeee;
+    text-decoration-line:underline;
+}
 .btn-headline
 {
-    background-color: #6d6def;
+    background-color: #006394;
     margin-bottom: 20px;
+    color: #eeeeee;
 }
 
 .style-img-left
@@ -117,10 +144,10 @@
 }
 .title-card-container
 {
-    height: 50px;
+    height: auto;
 
     margin-bottom: 20px;
-    border-bottom: #0a0908;
+    border-bottom: #006da3;
     border-bottom-style: solid;
     align-content: center;
     font-size: large;
@@ -129,7 +156,7 @@
 .title-card
 {
     text-decoration-line: none;
-
+    color: #626161;
     margin-right: 0.8vw;
 }
 .card-body-style
@@ -152,22 +179,33 @@
 .container-article,.cards
 {
     margin-top: 80px;
-    width: 80%;
+    width: 75%;
     height: auto;
 }
-.list-item-popular::before
+.counter-list
+{
+    height: 4rem;
+    margin-right: 1vw;
+
+}
+.counter-list::before
 {
     counter-increment: section;
     content: counter(section);
-    background-color: blue;
+    background-color: #006da3;
     color: #eeeeee;
-    text-align: center;
-    width:3.3vw;
+    width:2.1rem;
     height: 2.1rem;
-    border-radius: 100% ;
-    margin-right: 1vw;
-    font-weight: 700;
+    font-weight: 800;
+    padding-top: 5px;
+    border-radius: 100%;
+    text-align: center;
+    display: block;
     align-content: center;
+    font-size: 24px;
+
+
+
 }
 .list-group-popular
 {
@@ -180,16 +218,18 @@
 }
 .list-item-popular
 {
+
+    display:inline-flex;
     align-items: center;
-    display:flex;
-    margin: 1vw;
-    margin-left: 0;
     font-weight: 700;
+    font-family: 'Font Awesome 5 Free';
+
+
 
 }
 .title-headline
 {
-    width: 65%;
+    width: 75%;
     border-bottom-style: solid;
     border-width: 2px;
     border-bottom-color: #6d6def;
@@ -198,7 +238,7 @@
 .list-group-headline
 {
     padding: 0;
-    width: 65%;
+    width: 75%;
 }
 .container-article-left
 {
@@ -221,7 +261,7 @@
 .card-title-left
 {
     padding-left: 0;
-    font-size: large;
+    font-size: 1.25vw;
     font-weight: 700;
     width: 100%;
     text-align: left;
@@ -266,12 +306,14 @@
     {
         font-size:2vw;
 
-        padding-left: 1vw;
+        padding-left: 2vw;
     }
 
     .img-article-left
     {
         width: fit-content;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
 
@@ -295,6 +337,7 @@
     {
         width: 100%;
         text-align: center;
+        margin-bottom: 30px;
     }
     .img-style
     {
@@ -309,16 +352,15 @@
 {
 
 
-
+.card-title-left
+{
+    font-size: 1.8vw;
+}
     .cards
     {
         width: 100%;
     }
-    .list-item-popular::before
-    {
-        width: 4.9rem;
-        height: 2rem;
-    }
+
 }
 
 
@@ -328,7 +370,7 @@
 
     .list-item-popular::before
     {
-        width: 5rem;
+
     }
 
 
@@ -356,6 +398,7 @@
         font-size:2vw;
 
         padding-left: 0;
+
     }
 
 
@@ -366,21 +409,24 @@
 
     .list-item-popular::before
     {
-        width: 5rem;
+
     }
 
     .card-title-left
     {
         font-size:2vw;
 
+
         padding-left: 1vw;
     }
 
+
     .img-article-left
     {
+        margin-top: 0;
         width: 35vw;
     }
-    .article-left,.headline-right,.title-headline,.list-group-headline,.container-article
+    .article-left,.container-btn-headline,.headline-right,.title-headline,.list-group-headline
     {
         width: 100%;
     }
@@ -404,12 +450,27 @@
 
 }
 
+@media only screen and (max-width: 776px)
+{
+    .container-article
+    {
+        width: 100%;
+    }
+
+}
+
+
 @media only screen and (max-width: 580px)
 {
     .card-title-left
     {
         font-size:3.5vw;
         padding-left: 1vw;
+    }
+
+    .block-photos
+    {
+        padding: 0;
     }
     .img-article-left
     {
@@ -432,7 +493,7 @@
 
     .list-item-popular::before
     {
-        width: 3.5rem;
+
     }
     .list-group-popular
     {
