@@ -5,7 +5,7 @@
 .first-container
 {
 
-    width: 75%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +29,11 @@
 {
     border-bottom: #0a0908;
     border-bottom-style: solid;
-    border-bottom-width: thin;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    margin-top: 20px;
+
+
 }
 .hoverText
 {
@@ -44,6 +48,11 @@
     font-weight: 700;
     font-size: smaller;
     padding-top: 5px;
+}
+.list-item-top
+{
+    font-family: Arial;
+    font-size:small ;
 }
 .list-item-top::marker
 {
@@ -66,12 +75,12 @@
 {
     border-top-style: solid;
     border-width: thin;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .container-btn-headline
 {
     padding-top: 25px;
-    width: 75%;
+    width: 80%;
     text-align: center;
     background-color: #ecedee;
 
@@ -91,7 +100,7 @@
 
 .style-img-left
 {
-    width: 50%;
+    width: 55%;
 
 
 }
@@ -120,7 +129,7 @@
 .container-info
 {
     padding-right: 3%;
-    width: 50%;
+    width: 45%;
 }
 .container-top
 {
@@ -206,6 +215,30 @@
 
 
 }
+.card-text
+{
+    margin-bottom: 0;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+}
+.btn-subribe-only
+{
+    width: 100%;
+    background-color: #006da3;
+    color:white ;
+    font-weight: 650;
+    padding: 2px;
+    margin-bottom: 0;
+    font-size: small;
+
+
+
+}
+.container-subscribe-only
+{
+    width: 8.8rem;
+    text-align: center;
+}
 .list-group-popular
 {
     padding: 0;
@@ -221,7 +254,8 @@
     display:inline-flex;
     align-items: center;
     font-weight: 700;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Arial';
+    font-family: 'Arial';
 
 
 

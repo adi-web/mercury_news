@@ -15,26 +15,24 @@ function Body() {
                         <div className="container-info">
                             <h1 className="card-title">
                                 <a href="./" className="hoverText ">Lorem
-                                    ipsum dolor sit amet tenetur aut deleniti
-                                    accusamus</a>
+                                    ipsum dolor sit amet tenetur deleniti
+                                    </a>
                             </h1>
 
 
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur
-                                adipiscing elit ultrices hendrerit magna.</p>
+                            <p className="card-text">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Pellentesque tortor orci, suscipit at lobortis ut,
+                                luctus.</p>
 
                             <small className="text-muted">Related</small>
                             <div className="list-container-top">
 
                                 <ul className="list-group-top">
                                     <li className="list-item-top">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor. <small
+                                        elit. <small
                                             className="text-muted">3 day ago</small></li>
-                                    <li className="list-item-top">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor. <small
-                                            className="text-muted">3 day ago</small></li>
-                                    <li className="list-item-top">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor. <small
+                                    <li className="list-item-top">Lorem ipsum dolor sit , consectetur adipiscing
+                                        elit, do eiusmod tempor. <small
                                             className="text-muted">3 day ago</small></li>
 
                                 </ul>
@@ -50,7 +48,7 @@ function Body() {
                     </div>
 
 
-                    <div className="container-article-left">
+                    <div className=" pt-3 container-article-left">
 
                         <div className="block-article">
 
@@ -59,10 +57,9 @@ function Body() {
                                     <img className="img-style" src="./placeholder.png"/>
                                 </div>
 
-                                <p className="card-title card-title-left"><a className="hoverText" href="./">his is a
-                                    wider card with supporting text
-                                    below as a
-                                    natural lead-in to additional content.</a></p>
+                                <p className="card-title card-title-left"><a className="hoverText" href="./">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel consequat erat.</a>
+                                </p>
 
                             </div>
 
@@ -73,9 +70,9 @@ function Body() {
                                     />
                                 </div>
 
-                                <p className="card-title card-title-left"><a className="hoverText" href="./">This is a
-                                    wider card with supporting text
-                                    below. </a></p>
+                                <p className="card-title card-title-left"><a className="hoverText" href="./">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Vivamus leo nulla, sollicitudin sit amet suscipit. </a></p>
 
 
                             </div>
@@ -91,10 +88,9 @@ function Body() {
                                     />
                                 </div>
 
-                                <p className="card-title card-title-left"><a className="hoverText" href="./"> This is a
-                                    wider card with supporting text below
-                                    as a
-                                    natural lead-in to additional content. </a></p>
+                                <p className="card-title card-title-left"><a className="hoverText" href="./"> Lorem
+                                    ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ut vel consequat erat. </a></p>
 
                             </div>
 
@@ -105,10 +101,9 @@ function Body() {
                                     />
                                 </div>
 
-                                <p className="card-title card-title-left"><a className="hoverText" href="./">This is a
-                                    wider card with supporting text below
-                                    as a
-                                    natural lead-in to additional content. </a></p>
+                                <p className="card-title card-title-left"><a className="hoverText" href="./">Lorem ipsum
+                                    dolor sit amet, consectetur
+                                    adipiscing elit.</a></p>
 
                             </div>
 
@@ -129,21 +124,28 @@ function Body() {
                     <div className="list-headline">
 
                         <ul className="list-group-headline">
-                            <li className="item-headline">Sed ut perspiciatis unde omnis iste natus error .
+                            <li className="item-headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam.
                                 <p className="card-text"><small className="text-muted">2 day ago</small></p>
                             </li>
-                            <li className="item-headline">Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium.
+                            <li className="item-headline">Lorem ipsum dolor sit amet. Donec lorem metus.
+
                                 <p className="card-text"><small className="text-muted">24 minutes ago</small></p></li>
-                            <li className="item-headline">Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium.
+                            <li className="item-headline">Lorem ipsum dolor consectetur adipiscing elit. Donec lorem
+                                metus.
+
                                 <p className="card-text"><small className="text-muted">1 day ago</small></p></li>
-                            <li className="item-headline">Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium.
+                            <li className="item-headline">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Donec lorem metus.
                                 <p className="card-text"><small className="text-muted">3 day ago</small></p></li>
-                            <li className="item-headline">Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium.
-                                <p className="card-text"><small className="text-muted">1 day ago</small></p></li>
+                            <li className="item-headline">
+                                <div className="container-subscribe-only">
+
+                                    <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                </div>
+                                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam.
+                                    <small className="text-muted"> 1 day ago</small></p></li>
                         </ul>
 
                         <div className="container-btn-headline">
@@ -175,82 +177,63 @@ function Body() {
 
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nunc vitae metus vitae tellus.</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Nunc vitae metus vitae tellus.</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Nunc vitae vitae tellus.</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nunc vitae metus vitae tellus.</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Nunc vitae metus vitae tellus,
+                                metus vitae tellus.</p>
                         </li>
 
                     </ul>
                     <ul className="list-group-popular ">
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit. Nunc vitae metus vitae tellus.</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae metus vitae
+                                tellus.</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit. Nunc vitae metus vitae tellus.</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor
+                                ,consectetur adipiscing elit. Nunc vitae metus vitae tellus.
+                                sit amet, consectetur adipiscing elit. Nunc vitae metus vitae tellus.</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem
-                                accusantium doloremque
-                                ab illo inventore</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae metus vitae
+                                tellus.</p>
                         </li>
 
                     </ul>
                 </div>
             </div>
-
 
             <div className="cards">
 
@@ -267,21 +250,20 @@ function Body() {
                     <img src="./placeholder.png"
                          className="card-img-top" alt="..."/>
                     <div className="card-body card-body-style">
-                        <h5 className="card-title"><a href="./" className="hoverText ">Card title</a></h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit longer.</p>
-                        <p className="fw-bold text-style-body"><a href="./" className="hoverText "> his is a wider card
-                            with supporting text below as a
-                            natural
-                            lead-in to additional content.</a></p>
-                        <p className="fw-bold text-style-body"><a href="./" className="hoverText "> his is a wider card
-                            with supporting text below as a
-                            natural
-                            lead-in to additional content.</a></p>
-                        <p className="fw-bold"><a href="./" className="hoverText ">his is a wider card with supporting
-                            text below as a
-                            natural
-                            lead-in to additional content.</a></p>
+                        <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.</a></h4>
+
+                        <p className="card-text">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit, ipsum dolor
+                            sit amet, consectetur adipiscing elit.</p>
+
+                        <p className="fw-bold text-style-body"><a href="./" className="hoverText ">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit.</a></p>
+                        <p className="fw-bold text-style-body"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                            amet,
+                            consectetur adipiscing elit.Dolor sit amet, consectetur adipiscing elit.</a></p>
+                        <p className="fw-bold"><a href="./" className="hoverText ">Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit.</a></p>
 
 
                     </div>
@@ -299,21 +281,30 @@ function Body() {
                     <img src="./placeholder.png"
                          className="card-img-top" alt="..."/>
                     <div className="card-body card-body-style">
-                        <h6 className="card-title"><a href="./" className="hoverText ">Card title</a></h6>
-                        <p className="card-text">This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit longer.</p>
-                        <p className="fw-bold text-style-body"><a href="./" className="hoverText "> his is a wider card
-                            with supporting text below as a
-                            natural
-                            lead-in to additional content.</a></p>
-                        <p className="fw-bold text-style-body"><a href="./" className="hoverText "> his is a wider card
-                            with supporting text below as a
-                            natural
-                            lead-in to additional content.</a></p>
-                        <p className="fw-bold"><a href="./" className="hoverText ">his is a wider card with supporting
-                            text below as a
-                            natural
-                            lead-in to additional content.</a></p>
+                        <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing elit. Aliquam urna.</a></h4>
+                        <p className="card-text">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing , ipsum dolor
+                            sit amet, consectetur adipiscing elit.</p>
+
+
+                        <p className="fw-bold text-style-body"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                            amet,
+                            consectetur dolor elit, adipiscing elit.</a></p>
+                        <p className="fw-bold text-style-body">
+
+                            <div className="container-subscribe-only">
+
+                                <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                            </div>
+
+                            <a href="./" className="hoverText "> Lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit.</a></p>
+                        <p className="fw-bold"><a href="./" className="hoverText ">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit dolor
+                            sit amet</a></p>
 
 
                     </div>
@@ -333,21 +324,21 @@ function Body() {
                     <img src="./placeholder.png"
                          className="card-img-top" alt="..."/>
                     <div className="card-body card-body-style">
-                        <h5 className="card-title"><a href="./" className="hoverText ">Card title</a></h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit longer.</p>
-                        <p className="fw-bold text-style-body"><a href="./" className="hoverText "> his is a wider card
-                            with supporting text below as a
-                            natural
-                            lead-in to additional content.</a></p>
-                        <p className="fw-bold text-style-body"><a href="./" className="hoverText "> his is a wider card
-                            with supporting text below as a
-                            natural
-                            lead-in to additional content.</a></p>
-                        <p className="fw-bold"><a href="./" className="hoverText ">his is a wider card with supporting
-                            text below as a
-                            natural
-                            lead-in to additional content.</a></p>
+                        <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.</a></h4>
+
+                        <p className="card-text">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit, ipsum dolor
+                            sit amet, consectetur adipiscing elit.</p>
+
+
+                        <p className="fw-bold text-style-body"><a href="./" className="hoverText "> Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit.</a></p>
+                        <p className="fw-bold text-style-body"><a href="./" className="hoverText "> Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit, ipsum dolor
+                            sit amet, consectetur adipiscing elit.</a></p>
+                        <p className="fw-bold"><a href="./" className="hoverText ">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit.</a></p>
 
 
                     </div>
@@ -355,7 +346,6 @@ function Body() {
 
 
             </div>
-
 
             <div className="container-article">
                 <div className="title-card-container">
@@ -372,43 +362,59 @@ function Body() {
                         <img src="./placeholder.png"
                              className="card-img-top" alt="..."/>
                         <div className="card-body card-body-style">
-                            <h5 className="card-title"><a href="./" className="hoverText ">Card title</a></h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.</p>
+                            <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                elit,ipsum dolor amet,
+                                consectetur eli.</a></h4>
+                            <p className="card-text">Lorem ipsum dolor sit amet,
+                                consectetur elit</p>
 
                         </div>
 
                     </div>
 
-                    <div className="col-md-12 col-lg-12 col-xl-5">
-                        <div className="block-photos p-1 col-sm-6 col-md-6 col-lg-6 col-xl-12">
-                            <div className="p-1 col-4">
+                    <div className="pt-md-2 pt-lg-0 ps-lg-0 ps-xl-4 col-md-12 col-lg-12 col-xl-5">
+                        <div className="block-photos pb-md-2 pt-md-2 pb-lg-0 pt-lg-0  col-sm-6 col-md-6 col-lg-6 col-xl-12">
+                            <div className=" pe-2 col-4">
                                 <img src="./placeholder.png"
                                      className="card-img-top" alt="..."/>
                             </div>
-                            <h6 className=" p-1 col-8"><a href="./" className="hoverText ">his is a wider card
-                                with supporting text</a></h6>
+
+                            <h6 className="col-8">
+                                <div className="container-subscribe-only">
+
+                                    <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                </div>
+
+                                <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                    consectetur elit.</a></h6>
                         </div>
 
 
-                        <div className="block-photos p-1 col-sm-6 col-md-6 col-lg-6 col-xl-12">
-                            <div className="p-1 col-4">
+                        <div className="block-photos pb-2 pt-2 col-sm-6 col-md-6 col-lg-6 col-xl-12">
+                            <div className="pe-2 col-4">
                                 <img src="./placeholder.png"
                                      className="card-img-top" alt="..."/>
                             </div>
-                            <h6 className=" p-1 col-8"><a href="./" className="hoverText ">his is a wider card
-                                with supporting text</a></h6>
+                            <h6 className="  col-8"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                consectetur elit.</a></h6>
                         </div>
 
-                        <div className="p-1 col-sm-6 col-md-6 col-lg-6 col-xl-12 block-photos">
-                            <div className="p-1 col-4">
+                        <div className="col-sm-6 pb-2 pt-2 col-md-6 col-lg-6 col-xl-12 block-photos">
+                            <div className="pe-2 col-4">
                                 <img src="./placeholder.png"
                                      className="card-img-top" alt="..."/>
                             </div>
-                            <h6 className="p-1 col-8 col-sm-12 col-md-8"><a href="./" className="hoverText ">his is a
-                                wider
-                                card
-                                with supporting text</a></h6>
+                            <h6 className=" col-8 col-sm-12 col-md-8">
+                                <div className="container-subscribe-only">
+
+                                    <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                </div>
+
+                                <a href="./" className="hoverText ">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur elit.</a></h6>
                         </div>
 
                     </div>
@@ -419,7 +425,7 @@ function Body() {
             <div className="container-article">
                 <div className="title-card-container">
 
-                    <a className="title-card" href="./">OPINION</a>
+                    <a className="title-card" href="./">REAL ESTATE</a>
                     <i className="fas fa-greater-than"></i>
 
 
@@ -435,31 +441,48 @@ function Body() {
                         </div>
 
 
-                        <div className="col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" p-2 card-body col-md-6 col-xl-5 ">
-                                <h5 className="card-title"><a href="./" className="hoverText ">Card title</a></h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                        <div className=" col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div className="  p-2 card-body col-md-6 col-xl-5 ">
+                                <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                                    amet,
+                                    consectetur adipiscing elit.</a></h4>
+                                <p className="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className=" col-sm-12 col-lg-12 col-xl-6">
-                                <div className=" title-article p-2  col-xl-12">
+                            <div className=" ps-xl-3 col-sm-12 col-lg-12 col-xl-6">
+                                <div className=" title-article   col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                    <h5 className="col-12"><a href="./" className="hoverText ">
+                                        <div className="container-subscribe-only">
+
+                                            <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                        </div>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.</a></h5>
                                 </div>
 
 
-                                <div className=" title-article p-2 col-xl-12">
+                                <div className=" title-article  col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                    <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur elit.</a></h5>
                                 </div>
 
-                                <div className=" title-article p-2  col-xl-12">
+                                <div className=" title-article   col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                    <h5 className="col-12">
+                                        <div className="container-subscribe-only">
+
+                                            <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                        </div>
+
+                                        <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit onsectetur elit.</a></h5>
                                 </div>
 
                             </div>
@@ -469,6 +492,80 @@ function Body() {
 
                 </div>
             </div>
+
+            <div className="container-article">
+                <div className="title-card-container">
+
+                    <a className="title-card" href="./">RESTAURANTS, FOOD AND DRINK</a>
+                    <i className="fas fa-greater-than"></i>
+
+
+                </div>
+                <div className="  col-sm-12 col-md-12  col-xxl-12 " style={{display: "inline-flex"}}>
+
+
+                    <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
+
+                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-4">
+                            <img src="./placeholder.png"
+                                 className="card-img-top" alt="..."/>
+                        </div>
+
+
+                        <div className="  col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div className=" p-2  card-body col-md-6 col-xl-5 ">
+                                <h4 className="card-title">
+
+                                    <div className="container-subscribe-only">
+
+                                        <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                    </div>
+                                    <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.</a></h4>
+                                <p className="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit amet,
+                                    consectetur adipiscing elit.</p>
+                            </div>
+
+                            <div className=" ps-xl-3 col-sm-12 col-lg-12 col-xl-6">
+                                <div className=" title-article p-2  col-xl-12">
+
+                                    <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur elit.</a></h5>
+                                </div>
+
+
+                                <div className=" title-article  col-xl-12">
+
+                                    <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur adipiscing elit.</a></h5>
+                                </div>
+
+                                <div className=" title-article   col-xl-12">
+
+                                    <h5 className="col-12">
+                                        <div className="container-subscribe-only">
+
+                                            <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                        </div>
+
+                                        <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit,
+                                            ipsum amet elit.</a></h5>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
 
             <div className="container-article">
                 <div className="title-card-container">
@@ -490,30 +587,49 @@ function Body() {
 
 
                         <div className="col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" p-2 card-body col-md-6 col-xl-5 ">
-                                <h5 className="card-title"><a href="./" className="hoverText ">Card title</a></h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                            <div className=" p-2  card-body col-md-6 col-xl-5 ">
+                                <h4 className="card-title">
+
+                                    <div className="container-subscribe-only">
+
+                                        <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                    </div>
+                                    <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.</a></h4>
+                                <p className="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit amet,
+                                    consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className=" col-sm-12 col-lg-12 col-xl-6">
+                            <div className=" ps-xl-3 col-sm-12 col-lg-12 col-xl-6">
                                 <div className=" title-article p-2  col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                    <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur elit.</a></h5>
                                 </div>
 
 
-                                <div className=" title-article p-2 col-xl-12">
+                                <div className=" title-article  col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                    <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur adipiscing elit.</a></h5>
                                 </div>
 
-                                <div className=" title-article p-2  col-xl-12">
+                                <div className=" title-article   col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                    <h5 className="col-12">
+                                        <div className="container-subscribe-only">
+
+                                            <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                        </div>
+
+                                        <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit,
+                                            ipsum amet elit.</a></h5>
                                 </div>
 
                             </div>
@@ -523,10 +639,11 @@ function Body() {
 
                 </div>
             </div>
+
             <div className="container-article">
                 <div className="title-card-container">
 
-                    <a className="title-card" href="./">OPINION</a>
+                    <a className="title-card" href="./">BUSINESS</a>
                     <i className="fas fa-greater-than"></i>
 
 
@@ -543,83 +660,49 @@ function Body() {
 
 
                         <div className="col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" p-2 card-body col-md-6 col-xl-5 ">
-                                <h5 className="card-title"><a href="./" className="hoverText ">Card title</a></h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                            <div className=" p-2  card-body col-md-6 col-xl-5 ">
+                                <h4 className="card-title">
+
+                                    <div className="container-subscribe-only">
+
+                                        <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                    </div>
+                                    <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.</a></h4>
+                                <p className="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit amet,
+                                    consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className=" col-sm-12 col-lg-12 col-xl-6">
+                            <div className=" ps-xl-3 col-sm-12 col-lg-12 col-xl-6">
                                 <div className=" title-article p-2  col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                    <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur elit.</a></h5>
                                 </div>
 
 
-                                <div className=" title-article p-2 col-xl-12">
+                                <div className=" title-article  col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                    <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur adipiscing elit.</a></h5>
                                 </div>
 
-                                <div className=" title-article p-2  col-xl-12">
+                                <div className=" title-article   col-xl-12">
 
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
-                                </div>
+                                    <h5 className="col-12">
+                                        <div className="container-subscribe-only">
 
-                            </div>
+                                            <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
 
-                        </div>
-                    </div>
+                                        </div>
 
-                </div>
-            </div>
-            <div className="container-article">
-                <div className="title-card-container">
-
-                    <a className="title-card" href="./">OPINION</a>
-                    <i className="fas fa-greater-than"></i>
-
-
-                </div>
-                <div className="  col-sm-12 col-md-12  col-xxl-12 " style={{display: "inline-flex"}}>
-
-
-                    <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
-
-                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-4">
-                            <img src="./placeholder.png"
-                                 className="card-img-top" alt="..."/>
-                        </div>
-
-
-                        <div className="col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" p-2 card-body col-md-6 col-xl-5 ">
-                                <h5 className="card-title"><a href="./" className="hoverText ">Card title</a></h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-
-                            <div className=" col-sm-12 col-lg-12 col-xl-6">
-                                <div className=" title-article p-2  col-xl-12">
-
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
-                                </div>
-
-
-                                <div className=" title-article p-2 col-xl-12">
-
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
-                                </div>
-
-                                <div className=" title-article p-2  col-xl-12">
-
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
+                                        <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit,
+                                            ipsum amet elit.</a></h5>
                                 </div>
 
                             </div>
@@ -629,59 +712,7 @@ function Body() {
 
                 </div>
             </div>
-            <div className="container-article">
-                <div className="title-card-container">
 
-                    <a className="title-card" href="./">OPINION</a>
-                    <i className="fas fa-greater-than"></i>
-
-
-                </div>
-                <div className="  col-sm-12 col-md-12  col-xxl-12 " style={{display: "inline-flex"}}>
-
-
-                    <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
-
-                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-4">
-                            <img src="./placeholder.png"
-                                 className="card-img-top" alt="..."/>
-                        </div>
-
-
-                        <div className="col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" p-2 card-body col-md-6 col-xl-5 ">
-                                <h5 className="card-title"><a href="./" className="hoverText ">Card title</a></h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-
-                            <div className=" col-sm-12 col-lg-12 col-xl-6">
-                                <div className=" title-article p-2  col-xl-12">
-
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
-                                </div>
-
-
-                                <div className=" title-article p-2 col-xl-12">
-
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
-                                </div>
-
-                                <div className=" title-article p-2  col-xl-12">
-
-                                    <h5 className="col-12"><a href="./" className="hoverText ">his is a wider card
-                                        with supporting text</a></h5>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
 
             <div className="trending-nationaly mt-4">
                 <div className="title-card-container">
@@ -695,14 +726,14 @@ function Body() {
                     <ul className="list-group-popular ">
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
+                            <p>Lorem ipsum ut perspiciatis unde omnis iste natus error
                                 sit voluptatem
                                 accusantium doloremque
                                 ab illo inventore</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
+                            <p>Lorem ipsum ut perspiciatis unde omnis iste natus error
                                 sit voluptatem
                                 accusantium doloremque
                                 ab illo inventore</p>
@@ -713,21 +744,21 @@ function Body() {
                     <ul className="list-group-popular ">
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
+                            <p>Lorem ipsum ut perspiciatis unde omnis iste natus error
                                 sit voluptatem
                                 accusantium doloremque
                                 ab illo inventore</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
+                            <p>Lorem ipsum ut perspiciatis unde omnis iste natus error
                                 sit voluptatem
                                 accusantium doloremque
                                 ab illo inventore</p>
                         </li>
                         <li className="list-item-popular">
                             <span className="counter-list"> </span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error
+                            <p>Lorem ipsum ut perspiciatis unde omnis iste natus error
                                 sit voluptatem
                                 accusantium doloremque
                                 ab illo inventore</p>
@@ -737,6 +768,8 @@ function Body() {
                     </ul>
                 </div>
             </div>
+
+
         </div>
     )
 }
