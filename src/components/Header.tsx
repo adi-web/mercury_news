@@ -15,9 +15,19 @@ function Header() {
 
     const clickSearch=()=>{
 
+                if(navLeft==true)
+                {
+                    setClick(!navLeft);
+                    setSearch(!searchIcon);
 
+                }
+                else  if(navRight==true)
+                {
+                    setClickRight(!navRight);
+                    setSearch(!searchIcon);
 
-                if(scrollPage==true)
+                }
+                else if(scrollPage==true)
                 {
                     setSearch(!searchIcon);
 
@@ -46,6 +56,11 @@ function Header() {
             setClick(!navLeft)
             setClickRight(!navRight);
 
+        }
+        else if(navRight==false && searchIcon==true)
+        {
+            setSearch(!searchIcon);
+            setClickRight(!navRight);
         }
         else {
             setClickRight(!navRight);
@@ -81,11 +96,16 @@ function Header() {
     };
     const handleClick= () =>{
 
-        if(navRight==true && navLeft==false&& searchIcon==true){
+        if(navRight==true && navLeft==false ){
         setClick(!navLeft)
         setClickRight(!navRight);
 
 
+        }
+        else if(searchIcon==true && navLeft==false)
+        {
+            setClick(!navLeft);
+            setSearch(!searchIcon);
         }
         else if(scrollPage==true) {
             setClick(!navLeft)
