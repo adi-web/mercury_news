@@ -156,7 +156,7 @@ function Footer() {
 
                         <div className="top-list">
 
-                            <button className=" btn btn-style btn-style-footer"> Subscribe</button>
+                            <button className=" btn btn-style btn-style-footer"> SUBSCRIBE NOW</button>
 
 
                         </div>
@@ -288,18 +288,28 @@ function Footer() {
             </div>
 
             <div className="terms">
-                <p> Terms of Use
-                    Cookie Policy
-                    California Notice at Collection
-                    Notice of Financial Incentive
-                    Do Not Sell/Share My Personal Information
-                    Arbitration
-                    Powered by WordPress.com VIP
-                    Copyright © 2024 MediaNews Group</p>
+            <div className="container-xxl">
+                <div className="row">
+                    <div className="col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                        Terms of Use
+                    </div>
+                    <div className="col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                        Cookie Policy
+                    </div>
+                    <div className="col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                        California Notice at Collection
+                    </div>
+                    <div className="    col-xl-2 col-xxl-2">
+                        Notice of Financial Incentive
+                    </div>
+                    <div className=" col-md-6 col-xl-2">
+                        Do Not Sell/Share My Personal Information
+                    </div>
 
+                </div>
             </div>
 
-
+            </div>
         </div>
 
 

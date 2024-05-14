@@ -5,7 +5,7 @@
 .first-container
 {
 
-    width: 80%;
+    width: 78%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -27,20 +27,34 @@
 }
 .title-article
 {
-    border-bottom: #0a0908;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: grey;
-    margin-top: 20px;
+
+    border-top-style: ridge;
+    padding-top: 15px;
 
 
+
+}
+.border-t
+{
+    border-top-style: none;
 }
 .hoverText
 {
     color: #0a0908;
     text-decoration-line: unset;
+    font-size: medium;
+    font-weight: 700;
+
 
 }
+.hoverTextPrincipal
+{
+    color: #0a0908;
+    text-decoration-line: unset;
+    font-size: xx-large;
+}
+
+
 
 .list-item-top
 {
@@ -65,7 +79,7 @@
 
 .hoverText:hover , .list-item-top:hover,
 .item-headline:hover,.list-item-popular:hover,.title-card:hover
-
+,.hoverTextPrincipal:hover
 {
 
     color: #6d6def;
@@ -74,13 +88,14 @@
 .list-container-top
 {
     border-top-style: solid;
-    border-width: thin;
+    border-width: 1px;
     margin-bottom: 10px;
+    border-top-color: #5d5b5a;
 }
 .container-btn-headline
 {
     padding-top: 25px;
-    width: 80%;
+    width: 78%;
     text-align: center;
     background-color: #ecedee;
 
@@ -109,7 +124,17 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
+
+
 }
+
+
+
+
+
+
+
+
 .v
 {
     display: inline-flex;
@@ -145,6 +170,7 @@
 .a{
     display: contents;
 }
+
 .block-popular
 {
     display: inline-grid;
@@ -158,6 +184,7 @@
     margin-bottom: 20px;
     border-bottom: #006da3;
     border-bottom-style: solid;
+    border-width: 1.9px;
     align-content: center;
     font-size: large;
 
@@ -167,6 +194,7 @@
     text-decoration-line: none;
     color: #626161;
     margin-right: 0.8vw;
+    font-size: larger;
 }
 .card-body-style
 {
@@ -187,7 +215,7 @@
 }
 .container-article,.cards
 {
-    margin-top: 80px;
+
     width: 75%;
     height: auto;
 }
@@ -260,13 +288,19 @@
 
 
 }
+.title-color
+{
+    color: #6d6def;
+    text-decoration: none;
+}
 .title-headline
 {
     width: 75%;
     border-bottom-style: solid;
-    border-width: 2px;
+    border-width: 1.4px;
     border-bottom-color: #6d6def;
-    color: grey;
+    font-weight: 400;
+    color: #38322a;
 }
 .list-group-headline
 {
@@ -275,8 +309,8 @@
 }
 .container-article-left
 {
-    border-top-style: solid;
-    border-width: thin;
+    border-top-style: outset;
+    border-width: 1.7px;
     margin-top: 10px;
 }
 .item-headline
@@ -289,6 +323,11 @@
 
     padding-bottom: 15px;
     margin-bottom: 15px;
+
+}
+.fa-greater-than
+{
+    color: #6d6def;
 
 }
 .card-title-left
@@ -322,6 +361,11 @@
 {
     display: inline-flex;
 
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: grey;
+    margin-bottom: 5px;
+
 
 }
 
@@ -337,16 +381,15 @@
 {
     .card-title-left
     {
-        font-size:2vw;
 
-        padding-left: 2vw;
+        padding-left: 1.3vw;
+        padding-right: 1vw;
     }
 
     .img-article-left
     {
         width: fit-content;
-        margin-bottom: 10px;
-        margin-top: 10px;
+
     }
 
 
@@ -384,11 +427,18 @@
 @media only screen and (max-width: 1200px)
 {
 
+    .border-t
+    {
+        border-top-style: ridge;
+        padding-top: 15px;
+    }
+    .border-b
+    {
+        border-bottom-style: ridge;
+    }
 
-.card-title-left
-{
-    font-size: 1.8vw;
-}
+
+
     .cards
     {
         width: 100%;
@@ -401,13 +451,11 @@
 @media only screen and (max-width: 1024px)
 {
 
-    .list-item-popular::before
-    {
-
-    }
 
 
-    .first-container,.title-headline,.list-group-headline
+
+
+    .first-container,.title-headline,.list-group-headline,.container-btn-headline
     {width: 100%}
     .headline-right
     {
@@ -428,7 +476,6 @@
 
     .card-title-left
     {
-        font-size:2vw;
 
         padding-left: 0;
 
@@ -438,12 +485,6 @@
 }
 @media only screen and (max-width: 800px)
 {
-
-
-    .list-item-popular::before
-    {
-
-    }
 
     .card-title-left
     {
@@ -457,7 +498,7 @@
     .img-article-left
     {
         margin-top: 0;
-        width: 35vw;
+
     }
     .article-left,.container-btn-headline,.headline-right,.title-headline,.list-group-headline
     {
@@ -497,7 +538,7 @@
 {
     .card-title-left
     {
-        font-size:3.5vw;
+
         padding-left: 1vw;
     }
 

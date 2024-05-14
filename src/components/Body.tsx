@@ -13,11 +13,11 @@ function Body() {
                     <div className="container-top">
 
                         <div className="container-info">
-                            <h1 className="card-title">
-                                <a href="./" className="hoverText ">Lorem
+                            <h3 className="card-title">
+                                <a href="./" className="hoverTextPrincipal ">Lorem
                                     ipsum dolor sit amet tenetur deleniti
-                                    </a>
-                            </h1>
+                                </a>
+                            </h3>
 
 
                             <p className="card-text">Lorem ipsum dolor sit amet,
@@ -148,7 +148,7 @@ function Body() {
                                     <small className="text-muted"> 1 day ago</small></p></li>
                         </ul>
 
-                        <div className="container-btn-headline">
+                        <div className="container-btn-headline border-0">
 
                             <p className="fw-bold ">
                                 Omnis iste natus error
@@ -164,11 +164,11 @@ function Body() {
 
             </div>
 
-            <div className="container-article">
+            <div className="container-article mt-5">
 
                 <div className="title-card-container">
 
-                    <a className="title-card" href="./">MOST POPULAR</a>
+                    <a className="title-color" >MOST POPULAR</a>
 
 
                 </div>
@@ -235,7 +235,7 @@ function Body() {
                 </div>
             </div>
 
-            <div className="cards">
+            <div className="cards mt-4">
 
 
                 <div className="card style-card col-md-6 col-lg-6 col-xl-4">
@@ -250,7 +250,8 @@ function Body() {
                     <img src="./placeholder.png"
                          className="card-img-top" alt="..."/>
                     <div className="card-body card-body-style">
-                        <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                        <h4 className="card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit
+                            amet,
                             consectetur adipiscing elit.</a></h4>
 
                         <p className="card-text">Lorem ipsum dolor
@@ -281,7 +282,8 @@ function Body() {
                     <img src="./placeholder.png"
                          className="card-img-top" alt="..."/>
                     <div className="card-body card-body-style">
-                        <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                        <h4 className="card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit
+                            amet,
                             consectetur
                             adipiscing elit. Aliquam urna.</a></h4>
                         <p className="card-text">Lorem ipsum dolor
@@ -323,8 +325,9 @@ function Body() {
 
                     <img src="./placeholder.png"
                          className="card-img-top" alt="..."/>
-                    <div className="card-body card-body-style">
-                        <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                    <div className="ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2 card-body card-body-style">
+                        <h4 className="card-title"><a href="./" className="hoverTextPrincipal">Lorem ipsum dolor sit
+                            amet,
                             consectetur adipiscing elit.</a></h4>
 
                         <p className="card-text">Lorem ipsum dolor
@@ -347,10 +350,10 @@ function Body() {
 
             </div>
 
-            <div className="container-article">
+            <div className="container-article  mt-5">
                 <div className="title-card-container">
 
-                    <a className="title-card" href="./">REAL ESTATE</a>
+                    <a className="title-card" href="./">PHOTOS</a>
                     <i className="fas fa-greater-than"></i>
 
 
@@ -361,8 +364,8 @@ function Body() {
                     <div className="col-lg-12 col-xl-7">
                         <img src="./placeholder.png"
                              className="card-img-top" alt="..."/>
-                        <div className="card-body card-body-style">
-                            <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                        <div className=" mt-md-0ps-xl-0 pb-2 card-body card-body-style">
+                            <h4 className=" card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit amet,
                                 elit,ipsum dolor amet,
                                 consectetur eli.</a></h4>
                             <p className="card-text">Lorem ipsum dolor sit amet,
@@ -372,8 +375,8 @@ function Body() {
 
                     </div>
 
-                    <div className="pt-md-2 pt-lg-0 ps-lg-0 ps-xl-4 col-md-12 col-lg-12 col-xl-5">
-                        <div className="block-photos pb-md-2 pt-md-2 pb-lg-0 pt-lg-0  col-sm-6 col-md-6 col-lg-6 col-xl-12">
+                    <div className=" pt-md-2 pt-sm-3 pt-lg-0 ps-lg-0 ps-xl-4 col-md-12 col-lg-12 col-xl-5">
+                        <div className="block-photos pt-3 pb-3 pt-md-3 pb-sm-3 pb-md-3 pt-md-2 pt-lg-0  col-sm-5 col-md-5 col-lg-5 col-xl-12">
                             <div className=" pe-2 col-4">
                                 <img src="./placeholder.png"
                                      className="card-img-top" alt="..."/>
@@ -391,38 +394,44 @@ function Body() {
                         </div>
 
 
-                        <div className="block-photos pb-2 pt-2 col-sm-6 col-md-6 col-lg-6 col-xl-12">
+                        <div
+                            className="block-photos pt-3 pb-3 pt-sm-3  pt-md-3 pb-sm-3 pb-md-3 pt-md-2 pt-lg-2 ms-sm-2 ms-md-2 ms-lg-2 ms-xl-0  col-sm-5 col-md-5 col-lg-5 col-xl-12">
                             <div className="pe-2 col-4">
                                 <img src="./placeholder.png"
                                      className="card-img-top" alt="..."/>
                             </div>
                             <h6 className="  col-8"><a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
-                                consectetur elit.</a></h6>
+                                elit,ipsum dolor amet,
+                                consectetur eli.</a></h6>
                         </div>
 
-                        <div className="col-sm-6 pb-2 pt-2 col-md-6 col-lg-6 col-xl-12 block-photos">
-                            <div className="pe-2 col-4">
+                        <div
+                            className="block-photos pt-3 pb-3 pt-sm-3 pb-sm-3 pt-md-3 pb-md-3 pt-md-2 pt-lg-0  col-sm-5 col-md-5 col-lg-5 col-xl-12">
+                            <div className=" pe-2 col-4">
                                 <img src="./placeholder.png"
                                      className="card-img-top" alt="..."/>
                             </div>
-                            <h6 className=" col-8 col-sm-12 col-md-8">
+
+                            <h6 className="col-8">
                                 <div className="container-subscribe-only">
 
                                     <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
 
                                 </div>
 
-                                <a href="./" className="hoverText ">
-                                    Lorem ipsum dolor sit amet,
+                                <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
                                     consectetur elit.</a></h6>
                         </div>
 
                     </div>
                 </div>
+
+
+                <button className="show-more-videos btn-show-more">Show More Photos</button>
             </div>
 
 
-            <div className="container-article">
+            <div className="container-article mt-5">
                 <div className="title-card-container">
 
                     <a className="title-card" href="./">REAL ESTATE</a>
@@ -435,24 +444,26 @@ function Body() {
 
                     <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
 
-                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-4">
+                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-3">
                             <img src="./placeholder.png"
                                  className="card-img-top" alt="..."/>
                         </div>
 
 
-                        <div className=" col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className="  p-2 card-body col-md-6 col-xl-5 ">
-                                <h4 className="card-title"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                        <div className=" pt-sm-2 col-md-6 col-lg-6 col-xl-9" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div
+                                className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2 card-body col-md-6 col-xl-6 ">
+                                <h4 className="card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum
+                                    dolor sit
                                     amet,
                                     consectetur adipiscing elit.</a></h4>
-                                <p className="card-text">Lorem ipsum dolor sit amet,
+                                <p className=" pt-md-1 pt-sm-2 card-text">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit, ipsum dolor sit amet,
                                     consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className=" ps-xl-3 col-sm-12 col-lg-12 col-xl-6">
-                                <div className=" title-article   col-xl-12">
+                            <div className="pt-sm-4 pt-md-4  ps-md-2 col-sm-12 col-lg-12 col-xl-5">
+                                <div className=" title-article border-t   col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">
                                         <div className="container-subscribe-only">
@@ -472,7 +483,7 @@ function Body() {
                                         consectetur elit.</a></h5>
                                 </div>
 
-                                <div className=" title-article   col-xl-12">
+                                <div className=" title-article border-b  col-xl-12">
 
                                     <h5 className="col-12">
                                         <div className="container-subscribe-only">
@@ -493,7 +504,7 @@ function Body() {
                 </div>
             </div>
 
-            <div className="container-article">
+            <div className="container-article mt-5">
                 <div className="title-card-container">
 
                     <a className="title-card" href="./">RESTAURANTS, FOOD AND DRINK</a>
@@ -506,14 +517,16 @@ function Body() {
 
                     <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
 
-                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-4">
+                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-3">
                             <img src="./placeholder.png"
                                  className="card-img-top" alt="..."/>
                         </div>
 
 
-                        <div className="  col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" p-2  card-body col-md-6 col-xl-5 ">
+                        <div className=" pt-sm-4  col-md-6 col-lg-6 col-xl-9"
+                             style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div
+                                className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-6 ">
                                 <h4 className="card-title">
 
                                     <div className="container-subscribe-only">
@@ -521,15 +534,15 @@ function Body() {
                                         <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
 
                                     </div>
-                                    <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                    <a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.</a></h4>
-                                <p className="card-text">Lorem ipsum dolor sit amet,
+                                <p className="card-text pt-sm-2 pt-md-2">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit amet,
                                     consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className=" ps-xl-3 col-sm-12 col-lg-12 col-xl-6">
-                                <div className=" title-article p-2  col-xl-12">
+                            <div className=" pt-sm-4 pt-md-4 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
+                                <div className=" title-article  border-t col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
                                         amet,
@@ -537,14 +550,14 @@ function Body() {
                                 </div>
 
 
-                                <div className=" title-article  col-xl-12">
+                                <div className=" title-article   col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
                                         amet,
                                         consectetur adipiscing elit.</a></h5>
                                 </div>
 
-                                <div className=" title-article   col-xl-12">
+                                <div className=" title-article border-b   col-xl-12">
 
                                     <h5 className="col-12">
                                         <div className="container-subscribe-only">
@@ -567,7 +580,7 @@ function Body() {
             </div>
 
 
-            <div className="container-article">
+            <div className="container-article mt-5">
                 <div className="title-card-container">
 
                     <a className="title-card" href="./">OPINION</a>
@@ -580,14 +593,15 @@ function Body() {
 
                     <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
 
-                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-4">
+                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-3">
                             <img src="./placeholder.png"
                                  className="card-img-top" alt="..."/>
                         </div>
 
 
-                        <div className="col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" p-2  card-body col-md-6 col-xl-5 ">
+                        <div className=" pt-sm-3 col-md-6 col-lg-6 col-xl-9" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div
+                                className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-7 ">
                                 <h4 className="card-title">
 
                                     <div className="container-subscribe-only">
@@ -595,15 +609,15 @@ function Body() {
                                         <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
 
                                     </div>
-                                    <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                    <a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.</a></h4>
-                                <p className="card-text">Lorem ipsum dolor sit amet,
+                                <p className="card-text pt-sm-2 pt-md-2">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit amet,
                                     consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className=" ps-xl-3 col-sm-12 col-lg-12 col-xl-6">
-                                <div className=" title-article p-2  col-xl-12">
+                            <div className="pt-sm-4 pt-md-4 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
+                                <div className=" title-article border-t col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
                                         amet,
@@ -618,7 +632,7 @@ function Body() {
                                         consectetur adipiscing elit.</a></h5>
                                 </div>
 
-                                <div className=" title-article   col-xl-12">
+                                <div className=" title-article border-b  col-xl-12">
 
                                     <h5 className="col-12">
                                         <div className="container-subscribe-only">
@@ -640,7 +654,8 @@ function Body() {
                 </div>
             </div>
 
-            <div className="container-article">
+
+            <div className="container-article mt-5">
                 <div className="title-card-container">
 
                     <a className="title-card" href="./">BUSINESS</a>
@@ -653,14 +668,14 @@ function Body() {
 
                     <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
 
-                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-4">
+                        <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-3">
                             <img src="./placeholder.png"
                                  className="card-img-top" alt="..."/>
                         </div>
 
 
-                        <div className="col-md-6 col-lg-6 col-xl-8" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" p-2  card-body col-md-6 col-xl-5 ">
+                        <div className=" pt-sm-3 col-md-6 col-lg-6 col-xl-9" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-7 ">
                                 <h4 className="card-title">
 
                                     <div className="container-subscribe-only">
@@ -668,15 +683,15 @@ function Body() {
                                         <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
 
                                     </div>
-                                    <a href="./" className="hoverText ">Lorem ipsum dolor sit amet,
+                                    <a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.</a></h4>
-                                <p className="card-text">Lorem ipsum dolor sit amet,
+                                <p className="card-text pt-sm-2 pt-md-2">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit amet,
                                     consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className=" ps-xl-3 col-sm-12 col-lg-12 col-xl-6">
-                                <div className=" title-article p-2  col-xl-12">
+                            <div className="pt-sm-4 pt-md-4 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
+                                <div className=" title-article border-t col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
                                         amet,
@@ -691,7 +706,7 @@ function Body() {
                                         consectetur adipiscing elit.</a></h5>
                                 </div>
 
-                                <div className=" title-article   col-xl-12">
+                                <div className=" title-article border-b col-xl-12">
 
                                     <h5 className="col-12">
                                         <div className="container-subscribe-only">
@@ -714,10 +729,10 @@ function Body() {
             </div>
 
 
-            <div className="trending-nationaly mt-4">
+            <div className="trending-nationaly mt-5">
                 <div className="title-card-container">
 
-                    <a className="title-card" href="./">TRENDING NATIONALY</a>
+                    <a className="title-color" >TRENDING NATIONALY</a>
 
 
                 </div>

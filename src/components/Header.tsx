@@ -5,11 +5,41 @@ function Header() {
 
     const [navLeft,setClick]=useState(false)// qua ho creato un stato click e la funzione setClick che mi permette di
     const [navRight, setClickRight]=useState(false)
+    const [searchIcon, setSearch]=useState(false)
 
     const [titleview, setTitle]=useState(false)
     const [headerSticky, setHeader]=useState(false)
 
     const [scrollPage, setScroll]=useState(false)
+
+
+    const clickSearch=()=>{
+
+
+
+                if(scrollPage==true)
+                {
+                    setSearch(!searchIcon);
+
+                }
+                else
+                {
+                    setSearch(!searchIcon);
+                    setTitle(!titleview);
+                }
+
+
+
+
+
+
+            disablePage();
+
+
+
+
+    }
+
     const clickUser=()=>{
 
         if(navRight==false && navLeft==true){
@@ -32,7 +62,7 @@ function Header() {
         const appRoot=document.getElementById('second-container');
 
 
-        if (navLeft==true || navRight==true)
+        if (navLeft==true || navRight==true||searchIcon==true)
         {
 
             // @ts-ignore
@@ -51,11 +81,10 @@ function Header() {
     };
     const handleClick= () =>{
 
-
-
-        if(navRight==true && navLeft==false){
+        if(navRight==true && navLeft==false&& searchIcon==true){
         setClick(!navLeft)
         setClickRight(!navRight);
+
 
         }
         else if(scrollPage==true) {
@@ -64,6 +93,7 @@ function Header() {
         }
         else
         {
+
             setClick(!navLeft)
             setTitle(!titleview)
         }
@@ -157,7 +187,7 @@ function Header() {
                                 <div className="container-button">
                                     <button type="button" className="btn  btn-style">Subscribe</button>
                                     <button type="button" className="btn  btn-style">Log in</button>
-                                    <div className="icon-search">
+                                    <div className="icon-search" onClick={clickSearch}>
                                         <i className="fa fa-search" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -169,7 +199,7 @@ function Header() {
                                         <i className={navRight ? "bi bi-chevron-up icon-greater" : "bi bi-chevron-down icon-greater"}></i>
 
                                     </div>
-                                    <div className="icon-search">
+                                    <div className="icon-search" onClick={clickSearch}>
                                         <i className="fa fa-search" aria-hidden="true"></i>
                                     </div>
 
@@ -275,11 +305,22 @@ function Header() {
 
                 </div>
 
-                <div id="second-container">
-                    <div className="middle-nav">
-                        <div className="container-fluid">
-                            <div className="row">
-                                <div className="col-6 col-md-4">
+                        <div className={searchIcon ? 'search active-search' : 'search'}>
+                            <div className="input-group-form  ">
+
+                                <i className="fa fa-search search-form" aria-hidden="true"></i>
+                                <input className="form-style" type="text" placeholder="Type your search"
+                                       aria-label="Type your search"/>
+
+                                <button type="button" className="btn btn-search">search</button>
+                            </div>
+
+                        </div>
+                        <div id="second-container">
+                        <div className="middle-nav">
+                                <div className="container-fluid">
+                                    <div className="row">
+                                        <div className="col-6 col-md-4">
                                     <div className="container-weather">
                                         <div className="icon-weather">
                                             <i className="bi bi-moon-stars"></i>
@@ -341,21 +382,21 @@ function Header() {
                     <div className=" container-xxl  container-nav-trending">
 
                         <p> TRENDING: </p>
-                        <nav className="navbar navbar-expand-lg">
-                            <ul className="navbar-nav">
-                                <li className="nav-item">
-                                    <a className="nav-link  " href="./">Yosemite's summer prep</a>
+                        <nav className="container ">
+                            <ul className="row nav-trending">
+                                <li className="nav-item col-lg-3 col-xl-3 col-xxl-2">
+                                    <a className="nav-link " href="./">Yosemite's summer prep</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item col-lg-3 col-xl-3 col-xxl-2">
                                     <a className="nav-link " href="./">King Charles'funeral</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item col-lg-3 col-xl-3 col-xxl-2">
                                     <a className="nav-link " href="./">Rattlesnake season begins</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item col-lg-3 col-xl-3 col-xxl-2">
                                     <a className="nav-link " href="./">NFL Draft winner & losers</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item d-none d-xxl-block col-xxl-2">
                                     <a className="nav-link " href="./">Backwoods Barbie mystery</a>
                                 </li>
 
