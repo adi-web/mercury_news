@@ -42,32 +42,19 @@
         margin-left: 15px;
         color: white;
         font-family: "Arial";
-        height: 47px;
+        height: 45px;
         width: 120px;
+}
+.nav-item
+{
+    width: auto;
+    font-size: medium;
 }
 .btn-search
 {
     background-color: #006394;
     border-color: #006394;
-    margin-left:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            15px;
+    margin-left:15px;
     color: white;
     font-family: "Arial";
     width: auto;
@@ -178,6 +165,17 @@
     outline: none;
 }
 
+#left-nav-menu::before
+{
+    left: 320px;
+
+
+}
+.nav-menu-right::before
+{
+    right: 320px;
+
+}
 
 .input-group-form
 {
@@ -201,14 +199,12 @@
     position: fixed;
     height: 50px;
 
-
-
 }
 .container-empty{
     height: 250px;
 }
 
-.active{
+.active-nav{
 
     z-index: 1;
     margin:0;
@@ -219,17 +215,13 @@
     float: left;
     scrollbar-width: none;
 
-
-
-
-
 }
 .active-search::after
 {
     top: 123px;
 }
 
-.active::before,.active-search::after
+.active-nav::before
 {
     content: "";
     width: 100%;
@@ -238,17 +230,25 @@
     z-index: 1;
     background-color: rgba(0,0,0,0.5);
     overflow-y: hidden;
+    top:62px;
+}
 
-}
-#left-nav-menu::before
+.active-search::after
 {
-    left: 320px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+    overflow-y: hidden;
 }
-#right-nav-menu::before
+#left-nav-menu
 {
-    right: 320px;
+    border-top-style: solid;
+    border-top-width: thin;
+}
 
-}
 
 .icon-search , .icon-user
 {
@@ -271,6 +271,7 @@
 {
     margin-left: 2vw;
     cursor: pointer;
+
 }
 .icon_nav::after
 {
@@ -308,7 +309,8 @@
     float: right;
     display: flex;
     flex-wrap: nowrap;
-    padding-right: 3.8vw;
+    padding-right: 2.1vw;
+    padding-bottom: 5px;
 }
 
 
@@ -437,6 +439,7 @@
 
 }
 
+
 .nav-trending
 {
     list-style-type: none;
@@ -473,7 +476,10 @@
 
 @media only screen and (max-width: 1000px) {
 
-
+    #left-nav-menu
+    {
+        border: none;
+    }
     .search-form
     {
         padding-left: 0.9vw;
@@ -564,11 +570,12 @@
 @media only screen and (max-width: 550px) {
 
 
+
     .search
     {
         width: 100vw;
         padding: 0;
-        padding-right: 2.5rem;
+
         left: 0px;
     }
 

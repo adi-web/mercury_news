@@ -1,7 +1,16 @@
 import React from 'react'
 import './Body.css'
 
-function Body() {
+
+
+
+
+function Main() {
+
+
+
+
+
     return (
 
         <div className="main-container">
@@ -168,7 +177,7 @@ function Body() {
 
                 <div className="title-card-container">
 
-                    <a className="title-color" >MOST POPULAR</a>
+                    <a className="title-color">MOST POPULAR</a>
 
 
                 </div>
@@ -274,7 +283,7 @@ function Body() {
 
                     <div className="title-card-container">
 
-                        <a className="title-card" href="./"> CRIME AND PUBLIC SAFETY</a>
+                        <a className="title-card" href="./"> SPORTS</a>
                         <i
                             className="fas fa-greater-than"></i>
 
@@ -316,7 +325,7 @@ function Body() {
                 <div className="card style-card  col-md-6 col-lg-6 col-xl-4">
                     <div className="title-card-container">
 
-                        <a className="title-card" href="./"> CRIME AND PUBLIC SAFETY
+                        <a className="title-card" href="./"> THINGS TO DO
                         </a>
                         <i
                             className="fas fa-greater-than"></i>
@@ -365,7 +374,8 @@ function Body() {
                         <img src="./placeholder.png"
                              className="card-img-top" alt="..."/>
                         <div className=" mt-md-0ps-xl-0 pb-2 card-body card-body-style">
-                            <h4 className=" card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit amet,
+                            <h4 className=" card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor
+                                sit amet,
                                 elit,ipsum dolor amet,
                                 consectetur eli.</a></h4>
                             <p className="card-text">Lorem ipsum dolor sit amet,
@@ -376,7 +386,8 @@ function Body() {
                     </div>
 
                     <div className=" pt-md-2 pt-sm-3 pt-lg-0 ps-lg-0 ps-xl-4 col-md-12 col-lg-12 col-xl-5">
-                        <div className="block-photos pt-3 pb-3 pt-md-3 pb-sm-3 pb-md-3 pt-md-2 pt-lg-0  col-sm-5 col-md-5 col-lg-5 col-xl-12">
+                        <div
+                            className="block-photos pt-3 pb-3 pt-md-3 pb-sm-3 pb-md-3 pt-md-2 pt-lg-0  col-sm-5 col-md-5 col-lg-5 col-xl-12">
                             <div className=" pe-2 col-4">
                                 <img src="./placeholder.png"
                                      className="card-img-top" alt="..."/>
@@ -442,7 +453,7 @@ function Body() {
                 <div className="  col-sm-12 col-md-12 col-lg col-xxl-12 " style={{display: "inline-flex"}}>
 
 
-                    <div className="col-12 " style={{display: "inline-flex", flexWrap: "wrap"}}>
+                    <div className="col-12  " style={{display: "inline-flex", flexWrap: "wrap"}}>
 
                         <div className=" col-sm-12 col-md-4 col-lg-5 col-xl-3">
                             <img src="./placeholder.png"
@@ -450,7 +461,8 @@ function Body() {
                         </div>
 
 
-                        <div className=" pt-sm-2 col-md-6 col-lg-6 col-xl-9" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                        <div className="pt-4 pt-sm-2 pt-md-0 col-md-6 col-lg-6 col-xl-9"
+                             style={{display: "inline-flex", flexWrap: "wrap"}}>
                             <div
                                 className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2 card-body col-md-6 col-xl-6 ">
                                 <h4 className="card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum
@@ -462,7 +474,7 @@ function Body() {
                                     consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className="pt-sm-4 pt-md-4  ps-md-2 col-sm-12 col-lg-12 col-xl-5">
+                            <div className="pt-sm-4 pt-md-0  ps-md-2 col-sm-12 col-lg-12 col-xl-5">
                                 <div className=" title-article border-t   col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">
@@ -523,7 +535,7 @@ function Body() {
                         </div>
 
 
-                        <div className=" pt-sm-4  col-md-6 col-lg-6 col-xl-9"
+                        <div className=" pt-4 pt-sm-4 pt-md-0  col-md-6 col-lg-6 col-xl-9"
                              style={{display: "inline-flex", flexWrap: "wrap"}}>
                             <div
                                 className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-6 ">
@@ -541,7 +553,7 @@ function Body() {
                                     consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className=" pt-sm-4 pt-md-4 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
+                            <div className=" pt-sm-4 pt-md-0 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
                                 <div className=" title-article  border-t col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
@@ -599,7 +611,8 @@ function Body() {
                         </div>
 
 
-                        <div className=" pt-sm-3 col-md-6 col-lg-6 col-xl-9" style={{display: "inline-flex", flexWrap: "wrap"}}>
+                        <div className="pt-4 pt-sm-3 pt-md-0 col-md-6 col-lg-6 col-xl-9"
+                             style={{display: "inline-flex", flexWrap: "wrap"}}>
                             <div
                                 className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-7 ">
                                 <h4 className="card-title">
@@ -616,7 +629,7 @@ function Body() {
                                     consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className="pt-sm-4 pt-md-4 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
+                            <div className="pt-sm-4 pt-md-0 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
                                 <div className=" title-article border-t col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
@@ -674,8 +687,10 @@ function Body() {
                         </div>
 
 
-                        <div className=" pt-sm-3 col-md-6 col-lg-6 col-xl-9" style={{display: "inline-flex", flexWrap: "wrap"}}>
-                            <div className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-7 ">
+                        <div className="pt-4 pt-sm-4 pt-md-0 col-md-6 col-lg-6 col-xl-9"
+                             style={{display: "inline-flex", flexWrap: "wrap"}}>
+                            <div
+                                className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-7 ">
                                 <h4 className="card-title">
 
                                     <div className="container-subscribe-only">
@@ -690,7 +705,7 @@ function Body() {
                                     consectetur adipiscing elit.</p>
                             </div>
 
-                            <div className="pt-sm-4 pt-md-4 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
+                            <div className="pt-sm-4 pt-md-0 ps-md-2 col-sm-12 col-lg-12 col-xl-5">
                                 <div className=" title-article border-t col-xl-12">
 
                                     <h5 className="col-12"><a href="./" className="hoverText ">Lorem ipsum dolor sit
@@ -732,7 +747,7 @@ function Body() {
             <div className="trending-nationaly mt-5">
                 <div className="title-card-container">
 
-                    <a className="title-color" >TRENDING NATIONALY</a>
+                    <a className="title-color">TRENDING NATIONALY</a>
 
 
                 </div>
@@ -785,8 +800,9 @@ function Body() {
             </div>
 
 
+
         </div>
     )
 }
 
-export default Body
+export default Main

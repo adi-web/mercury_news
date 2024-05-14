@@ -48,39 +48,37 @@ function Footer() {
                 <div className="block-container grid">
 
                     <ul className="list-group list-group-flush  top-list">
-                        <li className="  list-item-style d-flex justify-content-between align-items-centeritem-block">An
-                            item
+                        <li className="  list-item-style d-flex justify-content-between align-items-centeritem-block">
+                            NEWS ALERTS
                         </li>
-                        <li className="  font-item d-flex justify-content-between align-items-center item-block">A
-                            second item
+                        <li className="  font-item d-flex justify-content-between align-items-center item-block">
+                            Today’s e-Edition
                         </li>
-                        <li className=" font-item d-flex justify-content-between align-items-center item-block">A
-                            third item
+                        <li className=" font-item d-flex justify-content-between align-items-center item-block">
+                            Mobile Apps
                         </li>
-                        <li className=" font-item d-flex justify-content-between align-items-center item-block">A
-                            fourth item
+                        <li className=" font-item d-flex justify-content-between align-items-center item-block">
+                            Site Map
                         </li>
-                        <li className="font-item d-flex justify-content-between align-items-center item-block">And
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">
                             a fifth one
                         </li>
                     </ul>
 
                     <ul className="list-group list-group-flush  top-list">
-                        <li className=" list-item-style d-flex justify-content-between align-items-centeritem-block">An
-                            item
+                        <li className=" list-item-style d-flex justify-content-between align-items-centeritem-block">
+                            MARKETPLACE
                         </li>
-                        <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                            second item
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">
+                            Place a Real Estate Ad
                         </li>
-                        <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                            third item
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">
+                            Lottery
                         </li>
-                        <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                            fourth item
+                        <li className="font-item d-flex justify-content-between align-items-center item-block">
+                            Place an Obituary
                         </li>
-                        <li className="font-item d-flex justify-content-between align-items-center item-block">And
-                            a fifth one
-                        </li>
+
                     </ul>
                 </div>
 
@@ -88,21 +86,26 @@ function Footer() {
                     <div className="block-container">
 
                         <ul className="list-group list-group-flush top-list">
-                            <li className="list-item-style d-flex justify-content-between align-items-center item-block">An
-                                item
+                            <li className="list-item-style d-flex justify-content-between align-items-center item-block">
+                                CONTACT US
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                                second item
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Digital Access
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                                third item
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Join our Team
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                                fourth item
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Special Sections
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">And a
-                                fifth one
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Sponsor a Group
                             </li>
+
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Privacy Policy
+                            </li>
+
                         </ul>
 
 
@@ -112,20 +115,20 @@ function Footer() {
                     <div className="block-container">
 
                         <ul className="list-group list-group-flush top-list">
-                            <li className="list-item-style d-flex justify-content-between align-items-center item-block">An
-                                item
+                        <li className="list-item-style d-flex justify-content-between align-items-center item-block">
+                            ADVERTISE WITH US
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                                second item
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Network Advertising
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                                third item
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Daily Ads
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                                fourth item
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Place a Legal Notic
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">And a
-                                fifth one
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Public Notices
                             </li>
                         </ul>
 
@@ -137,20 +140,21 @@ function Footer() {
                     <div className="block-container grid">
 
                         <ul className="list-group list-group-flush  top-list">
-                            <li className="list-item-style d-flex justify-content-between align-items-center item-block">An
-                                item
+                            <li className="list-item-style d-flex justify-content-between align-items-center item-block">
+                                SUBSCRIBE
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                                second item
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Member Services
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">A
-                                third item
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Manage Subscriptions
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-centeritem-block">A
-                                fourth item
+
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Archive Search
                             </li>
-                            <li className="font-item d-flex justify-content-between align-items-center item-block">And a
-                                fifth one
+                            <li className="font-item d-flex justify-content-between align-items-center item-block">
+                                Reprints
                             </li>
                         </ul>
 
@@ -290,20 +294,29 @@ function Footer() {
             <div className="terms">
             <div className="container-xxl">
                 <div className="row">
-                    <div className="col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                    <div className="font-nav-footer col-md-4 col-lg-3 col-xl-2 col-xxl-2">
                         Terms of Use
                     </div>
-                    <div className="col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                    <div className=" font-nav-footer col-md-4 col-lg-3 col-xl-2 col-xxl-2">
                         Cookie Policy
                     </div>
-                    <div className="col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                    <div className=" font-nav-footer col-md-4 col-lg-3 col-xl-2 col-xxl-2">
                         California Notice at Collection
                     </div>
-                    <div className="    col-xl-2 col-xxl-2">
+                    <div className=" font-nav-footer col-md-4 col-lg-3  col-xl-2 col-xxl-2">
                         Notice of Financial Incentive
                     </div>
-                    <div className=" col-md-6 col-xl-2">
-                        Do Not Sell/Share My Personal Information
+                    <div className=" font-nav-footer col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                        Do Not Sell/Share
+                    </div>
+                    <div className=" font-nav-footer col-md-4 col-lg-3  col-xl-2 col-xxl-2">
+                        Notice of Financial Incentive
+                    </div>
+                    <div className=" font-nav-footer col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                        California Notice at Collection
+                    </div>
+                    <div className="font-nav-footer  col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                        Terms of Use
                     </div>
 
                 </div>

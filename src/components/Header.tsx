@@ -38,12 +38,12 @@ function Header() {
                     setTitle(!titleview);
                 }
 
-
-
-
-
-
+        if(navLeft==false&&navRight==false||searchIcon==true)
             disablePage();
+
+
+
+
 
 
 
@@ -64,10 +64,12 @@ function Header() {
         }
         else {
             setClickRight(!navRight);
-
         }
 
-        disablePage();
+        if(navLeft==false&&searchIcon==false||navRight==true)
+            disablePage();
+
+
 
     }
 
@@ -118,7 +120,8 @@ function Header() {
             setTitle(!titleview)
         }
 
-        disablePage();
+        if(navRight==false&&searchIcon==false||navLeft==true)
+            disablePage();
 
 
         }
@@ -229,7 +232,7 @@ function Header() {
                         </div>
 
 
-                <div id="left-nav-menu" className={navLeft ? 'nav-menu active' : 'nav-menu'}>
+                <div id="left-nav-menu" className={navLeft ? 'nav-menu active-nav' : 'nav-menu'}>
                     <div className="container-btn-hidden">
                         <button className="btn  btn-style-hidden"> Subscribe Now</button>
                     </div>
@@ -303,7 +306,7 @@ function Header() {
                     </div>
                 </div>
 
-                <div id="right-nav-menu"  className={navRight ? 'nav-menu-right active ' : 'nav-menu-right'}>
+                <div id="right-nav-menu"  className={navRight ? 'nav-menu-right active-nav ' : 'nav-menu-right'}>
                     <div className="container-btn-hidden">
                         <button className="btn  btn-style-hidden"> Subscribe Now</button>
                     </div>
@@ -416,7 +419,7 @@ function Header() {
                                 <li className="nav-item col-lg-3 col-xl-3 col-xxl-2">
                                     <a className="nav-link " href="./">NFL Draft winner & losers</a>
                                 </li>
-                                <li className="nav-item d-none d-xxl-block col-xxl-2">
+                                <li className="nav-item d-none d-xl-block col-xxl-2">
                                     <a className="nav-link " href="./">Backwoods Barbie mystery</a>
                                 </li>
 

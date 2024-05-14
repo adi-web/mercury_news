@@ -31,9 +31,18 @@
     border-top-style: ridge;
     padding-top: 15px;
 
-
-
 }
+
+.slick-slide,.slick-active, .slick-current
+{
+    width: 40px;
+}
+
+.slick-prev:before,.slick-next:before
+{
+    color: blue;
+}
+
 .border-t
 {
     border-top-style: none;

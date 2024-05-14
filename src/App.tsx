@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './App.css';
 import Header from "./components/Header";
-import Body from "./components/Body";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
 import {useEffect} from "react";
 
@@ -17,7 +17,7 @@ function App() {
               <Header/>
           </div>
             <div id="main-container" className="container-xxl  ">
-            <Body />
+            <Main />
             </div>
           <Footer/>
 
