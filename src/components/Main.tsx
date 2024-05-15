@@ -16,9 +16,8 @@ function Main() {
 
     var settings = {
         dots: true,
-        infinite: false,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 6,
         slidesToScroll: 2,
         initialSlide: 0,
         responsive: [
@@ -52,44 +51,47 @@ function Main() {
 
     const data=[
         {
-            name:"adi",
+            name:"Lorem ipsum dolor",
             img:'./placeholder.png',
-            review:'dsfaffgafgagv '
+            review:'Lorem ipsum dolor sit amet. '
         },
         {
-            name:"adi",
+            name:"Lorem ipsum dolor",
             img:'./placeholder.png',
-            review:'dsfaffgafgagv '
+            review:'Lorem ipsum dolor sit amet. '
         },
         {
-            name:"adi",
+            name:"Lorem ipsum dolor",
             img:'./placeholder.png',
-            review:'dsfaffgafgagv '
+            review:'Lorem ipsum dolor sit amet. '
         },
         {
-            name:"adi",
+            name:"Lorem ipsum dolor",
             img:'./placeholder.png',
-            review:'dsfaffgafgagv '
+            review:'Lorem ipsum dolor sit amet. '
         },
         {
-            name:"adi",
+            name:"Lorem ipsum dolor",
             img:'./placeholder.png',
-            review:'dsfaffgafgagv '
+            review:'Lorem ipsum dolor sit amet. '
         },
         {
-            name:"adi",
+            name:"Lorem ipsum dolor",
             img:'./placeholder.png',
-            review:'dsfaffgafgagv '
+            review:'Lorem ipsum dolor sit amet. '
         },
         {
-            name:"adi",
+            name:"Lorem ipsum dolor",
             img:'./placeholder.png',
-            review:'dsfaffgafgagv '
-        },
-        {
-            name:"adi",
+            review:'Lorem ipsum dolor sit amet. '
+        },{
+            name:"Lorem ipsum dolor",
             img:'./placeholder.png',
-            review:'dsfaffgafgagv '
+            review:'Lorem ipsum dolor sit amet. '
+        },{
+            name:"Lorem ipsum dolor",
+            img:'./placeholder.png',
+            review:'Lorem ipsum dolor sit amet. '
         }
     ]
 
@@ -500,7 +502,7 @@ function Main() {
                     </div>
 
                     <div
-                        className="block-photos pt-3 pb-3 pt-sm-3 pb-sm-3 pt-md-3 pb-md-3 pt-md-2 pt-lg-0  col-sm-5 col-md-5 col-lg-5 col-xl-12">
+                        className="block-photos border-b-photos pt-3 pb-3 pt-sm-3 pb-sm-3 pt-md-3 pb-md-3 pt-md-2 pt-lg-0  col-sm-5 col-md-5 col-lg-5 col-xl-12">
                         <div className=" pe-2 col-4">
                             <img src="./placeholder.png"
                                  className="card-img-top" alt="..."/>
@@ -888,7 +890,22 @@ function Main() {
         </div>
 
 
-        <div className="ms-5 mb-5 mt-5 pt-4">
+        <div className="  ms-4 mb-5 mt-5 pt-4">
+
+            <div className="container-top">
+
+                    <div className=" col-8 col-sm-4 col-md-3 col-lg-4  col-xxl-7">
+                       Upcoming Events
+                    </div>
+                <div className="all-events col-2 col-sm-4 col-md-6 col-sm-4 col-lg-6 col-xxl-3">
+                    <i className="bi bi-calendar"></i>
+                </div>
+                <div className=" add-events col-2 col-sm-4 col-md-3 col-lg-2 col-xxl-2">
+                    <i className="fa fa-plus" aria-hidden="true"></i>
+                </div>
+
+            </div>
+
 
             <div className="mt-20 container-slider ">
                 <Slider {...settings}>
@@ -902,6 +919,7 @@ function Main() {
                             </div>
                             <div className="ms-2">
                                 <p className="title-card">{d.name}</p>
+                                <p className="">{d.review}</p>
                             </div>
                         </div>
 
@@ -911,9 +929,35 @@ function Main() {
 
 
             </div>
+            <div className="ms-2" style={{width:"85%"}}>
+                <div className="row">
+                    <div className=" icon-calendar col-xl-1"><i className="bi bi-calendar"></i>
+                    </div>
+                    <div className="style-item-calendar col-xl-1">WED</div>
+                    <div className="style-item-calendar col-xl-1">THU</div>
+                    <div className="style-item-calendar col-xl-1">FRI</div>
+                    <div className="style-item-calendar col-xl-1">SAT</div>
+                    <div className="d-none d-sm-block style-item-calendar col-xl-1">SUN</div>
+                    <div className=" d-none d-sm-block style-item-calendar col-xl-1">MON</div>
+                    <div className="d-none d-sm-block style-item-calendar col-xl-1">THU</div>
+                    <div className=" d-none d-md-block style-item-calendar col-xl-1">WED</div>
+                    <div className="d-none d-md-block style-item-calendar col-xl-1">THU</div>
+                    <div className="d-none d-md-block style-item-calendar col-xl-1">FRI</div>
+                    <div className="d-none d-lg-block style-item-calendar col-xl-1">SAT</div>
+                    <div className="d-none d-lg-block style-item-calendar col-xl-1">SUN</div>
+                    <div className=" d-none d-lg-block style-item-calendar col-xl-1">MON</div>
+                    <div className="  d-none d-xl-block style-item-calendar col-xl-1">THU</div>
+                    <div className=" d-none d-xl-block style-item-calendar col-xl-1">WED</div>
+                    <div className="  d-none d-xl-block style-item-calendar col-xl-1">THU</div>
+                    <div className=" d-none d-xl-blockstyle-item-calendar col-xl-1">FRI</div>
+                    <div className=" d-none d-xxl-block style-item-calendar col-xl-1">SAT</div>
+
+
+
+                </div>
+            </div>
 
         </div>
-
 
 
     </div>
