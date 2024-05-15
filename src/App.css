@@ -9,8 +9,39 @@
     height: 225px;
     background-color: white;
     position: -webkit-sticky; /* For Safari */
+    display: block;
 
 
+}
+.center-alert
+{
+    align-content: center;
+    text-align: center;
+    height: 40vw;
+}
+
+.btn-alert
+{
+    border: 0;
+    width: auto;
+    height: auto;background-color: #6d6def;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.container-alert
+{
+
+
+    height: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+.disable
+{
+    display: none;
 }
 
 @media only screen and (max-width: 1000px) {

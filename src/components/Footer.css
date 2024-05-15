@@ -58,6 +58,15 @@
     font-weight: 470;
 
 }
+.container-card-slider
+{
+    width: 200px;
+}
+.slick-slide
+{
+    width: unset;
+    width: 100px;
+}
 
 .btn-footer
 {

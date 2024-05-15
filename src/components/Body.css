@@ -138,12 +138,6 @@
 }
 
 
-
-
-
-
-
-
 .v
 {
     display: inline-flex;
@@ -169,6 +163,10 @@
 {
     display: flex;
     flex-wrap: wrap;
+}
+.container-slider
+{
+    width: 50vw;
 }
 .img-style
 {
