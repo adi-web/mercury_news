@@ -136,6 +136,34 @@
 
 
 }
+.btn-show-more::before {
+
+    position: absolute;
+    content: "";
+    background-color: white;
+    border-bottom: 1px solid ;
+    border-left: 1px solid ;
+    height: 2.1875em;
+    top: -1.1em;
+    transform: rotate(-45deg);
+    width: 2.1875em;
+}
+
+.btn-show-more {
+
+    z-index: -1;
+    border-top: 1px solid !important;
+    color: grey;
+    padding: 2.5em 0;
+    position: relative;
+    background-color: white;
+
+}
+
+.slick-dots
+{
+    display: none !important;
+}
 
 
 .v

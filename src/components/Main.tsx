@@ -8,15 +8,18 @@ import './Body.css'
 
 
 
+
 function Main() {
 
 
 
 
     var settings = {
+        dots: true,
+        infinite: false,
         speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToShow: 4,
+        slidesToScroll: 2,
         initialSlide: 0,
         responsive: [
             {
@@ -48,6 +51,26 @@ function Main() {
 
 
     const data=[
+        {
+            name:"adi",
+            img:'./placeholder.png',
+            review:'dsfaffgafgagv '
+        },
+        {
+            name:"adi",
+            img:'./placeholder.png',
+            review:'dsfaffgafgagv '
+        },
+        {
+            name:"adi",
+            img:'./placeholder.png',
+            review:'dsfaffgafgagv '
+        },
+        {
+            name:"adi",
+            img:'./placeholder.png',
+            review:'dsfaffgafgagv '
+        },
         {
             name:"adi",
             img:'./placeholder.png',
@@ -497,8 +520,13 @@ function Main() {
                 </div>
             </div>
 
+            <div className="container-show-more">
+                <button
+                    className="btn-show-more row m-0 mt-1 w-100 fw-bold border-0 text-center text-uppercase d-flex justify-content-center align-content-center">Show
+                    more photos
+                </button>
 
-            <button className="show-more-videos btn-show-more">Show More Photos</button>
+            </div>
         </div>
 
 
@@ -860,10 +888,11 @@ function Main() {
         </div>
 
 
-        <div className="ms-5">
+        <div className="ms-5 mb-5 mt-5 pt-4">
 
             <div className="mt-20 container-slider ">
                 <Slider {...settings}>
+
 
                     {data.map((d) => (
 
@@ -872,8 +901,7 @@ function Main() {
                                 <img src={d.img} className="img-style" alt=""/>
                             </div>
                             <div className="ms-2">
-                                <p>{d.name}</p>
-                                <p>{d.review}</p>
+                                <p className="title-card">{d.name}</p>
                             </div>
                         </div>
 

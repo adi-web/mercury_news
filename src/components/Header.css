@@ -25,6 +25,7 @@
     position: fixed;
     border-bottom-color: #a8a5a5;
     box-shadow: 1px 5px 6px #dedede;
+    z-index: 1;
 
 }
 
