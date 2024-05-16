@@ -329,14 +329,18 @@
 {
     padding-left: 0.8rem;
     font-family: "Helvetica Neue";
-    content: "Friday, April 26th 2024";
+    content: "Friday, April 26th 2024 ";
     font-size: 1rem;
     font-weight: 900;
     color: #0a0908;
     position: absolute;
     padding-top: 0.5rem;
+    width: 12vw;
 
 }
+
+
+
 .icon-weather > i{
     font-size: 1.9rem;
     padding-left: 2.8rem;

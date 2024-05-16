@@ -31,6 +31,14 @@ function Main() {
                 }
             },
             {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 3
+                }
+            },
+            {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
@@ -336,8 +344,7 @@ function Main() {
                 <div className="title-card-container">
 
                     <a className="title-card " href="./"> CRIME AND PUBLIC SAFETY</a>
-                    <i
-                        className="fas fa-greater-than"></i>
+                    <i className="fas fa-chevron-right mx-2"></i>
 
                 </div>
 
@@ -352,7 +359,7 @@ function Main() {
                         sit amet, consectetur adipiscing elit, ipsum dolor
                         sit amet, consectetur adipiscing elit.</p>
 
-                    <p className="fw-bold text-style-body"><a href="./" className="hoverText ">Lorem ipsum dolor
+                    <p className="fw-bold text-style-body border-t"><a href="./" className="hoverText ">Lorem ipsum dolor
                         sit amet, consectetur adipiscing elit.</a></p>
                     <p className="fw-bold text-style-body"><a href="./" className="hoverText ">Lorem ipsum dolor sit
                         amet,
@@ -369,8 +376,7 @@ function Main() {
                 <div className="title-card-container">
 
                     <a className="title-card" href="./"> SPORTS</a>
-                    <i
-                        className="fas fa-greater-than"></i>
+                    <i className="fas fa-chevron-right mx-2"></i>
 
                 </div>
                 <img src="./placeholder.png"
@@ -385,7 +391,7 @@ function Main() {
                         sit amet, consectetur adipiscing elit.</p>
 
 
-                    <p className="fw-bold text-style-body"><a href="./" className="hoverText ">Lorem ipsum dolor sit
+                    <p className="fw-bold text-style-body border-t "><a href="./" className="hoverText ">Lorem ipsum dolor sit
                         amet,
                         consectetur dolor elit, adipiscing elit.</a></p>
                     <p className="fw-bold text-style-body">
@@ -412,8 +418,7 @@ function Main() {
 
                     <a className="title-card" href="./"> THINGS TO DO
                     </a>
-                    <i
-                        className="fas fa-greater-than"></i>
+                    <i className="fas fa-chevron-right mx-2"></i>
 
                 </div>
 
@@ -429,7 +434,7 @@ function Main() {
                         sit amet, consectetur adipiscing elit.</p>
 
 
-                    <p className="fw-bold text-style-body"><a href="./" className="hoverText "> Lorem ipsum dolor
+                    <p className="fw-bold text-style-body border-t"><a href="./" className="hoverText "> Lorem ipsum dolor
                         sit amet, consectetur adipiscing elit.</a></p>
                     <p className="fw-bold text-style-body"><a href="./" className="hoverText "> Lorem ipsum dolor
                         sit amet, consectetur adipiscing elit, ipsum dolor
@@ -448,7 +453,7 @@ function Main() {
             <div className="title-card-container">
 
                 <a className="title-card" href="./">PHOTOS</a>
-                <i className="fas fa-greater-than"></i>
+                <i className="fas fa-chevron-right mx-2"></i>
 
 
             </div>
@@ -536,7 +541,7 @@ function Main() {
             <div className="title-card-container">
 
                 <a className="title-card" href="./">REAL ESTATE</a>
-                <i className="fas fa-greater-than"></i>
+                <i className="fas fa-chevron-right mx-2"></i>
 
 
             </div>
@@ -610,7 +615,7 @@ function Main() {
             <div className="title-card-container">
 
                 <a className="title-card" href="./">RESTAURANTS, FOOD AND DRINK</a>
-                <i className="fas fa-greater-than"></i>
+                <i className="fas fa-chevron-right mx-1"></i>
 
 
             </div>
@@ -686,7 +691,7 @@ function Main() {
             <div className="title-card-container">
 
                 <a className="title-card" href="./">OPINION</a>
-                <i className="fas fa-greater-than"></i>
+                <i className="fas fa-chevron-right mx-2"></i>
 
 
             </div>
@@ -762,7 +767,7 @@ function Main() {
             <div className="title-card-container">
 
                 <a className="title-card" href="./">BUSINESS</a>
-                <i className="fas fa-greater-than"></i>
+                <i className="fas fa-chevron-right mx-2"></i>
 
 
             </div>
@@ -892,7 +897,7 @@ function Main() {
 
         <div className="  ms-4 mb-5 mt-5 pt-4">
 
-            <div className="container-top">
+            <div className="container-top-events">
 
                     <div className=" col-8 col-sm-4 col-md-3 col-lg-4  col-xxl-7">
                        Upcoming Events
