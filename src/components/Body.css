@@ -2,6 +2,16 @@
 {
     counter-reset: section;
 }
+
+
+.card-title
+{
+    margin-top: 10px;
+    line-height: 22px;
+    margin-bottom: 15px;
+
+}
+
 .first-container
 {
 
@@ -56,11 +66,17 @@
 
 
 }
+.hoverText-left
+{
+    color: #0a0908;
+    text-decoration-line: unset;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 .hoverTextPrincipal
 {
     color: #0a0908;
     text-decoration-line: unset;
-    font-size: xx-large;
 }
 
 
@@ -460,6 +476,14 @@
 
 @media only screen and (max-width: 1283px)
 {
+
+
+    .card-title
+    {
+        margin-top: 0px;
+        padding-right: 0px;
+    }
+
     .card-title-left
     {
 
@@ -547,6 +571,14 @@
 
 
 
+.hoverText-left
+{
+    font-size: 1.1rem;
+}
+    .card-title
+    {
+        margin-top: 10px;
+    }
 
     .first-container,.title-headline,.list-group-headline,.container-btn-headline
     {width: 100%}
@@ -580,6 +612,14 @@
 @media only screen and (max-width: 800px)
 {
 
+    .card-title
+    {
+        margin-top: 0px;
+    }
+    .hoverText-left
+    {
+        font-size: 1rem;
+    }
     .card-title-left
     {
         font-size:2vw;
@@ -635,8 +675,15 @@
         font-size: larger;
 
     }
+    .hoverText-left
+    {
+        font-size: 1rem;
+
+    }
     .card-title
     {
+
+        line-height: 15px;
         margin-bottom: 6px;
     }
     .card-title-left

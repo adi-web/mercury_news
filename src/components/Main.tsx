@@ -115,7 +115,7 @@ function Main() {
                 <div className="container-top">
 
                     <div className="container-info">
-                        <h3 className="card-title">
+                        <h3 >
                             <a href="./" className="hoverTextPrincipal ">Lorem
                                 ipsum dolor sit amet tenetur deleniti
                             </a>
@@ -130,9 +130,15 @@ function Main() {
                         <div className="list-container-top">
 
                             <ul className="list-group-top">
-                                <li className="list-item-top">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                <li className="list-item-top">
+                                    <div className="container-subscribe-only">
+
+                                        <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
                                     elit. <small
-                                        className="text-muted">3 day ago</small></li>
+                                    className="text-muted">3 day ago</small></li>
                                 <li className="list-item-top">Lorem ipsum dolor sit , consectetur adipiscing
                                     elit, do eiusmod tempor. <small
                                         className="text-muted">3 day ago</small></li>
@@ -159,7 +165,7 @@ function Main() {
                                 <img className="img-style" src="./placeholder.png"/>
                             </div>
 
-                            <p className="card-title card-title-left"><a className="hoverText" href="./">
+                            <p className="card-title card-title-left"><a className="hoverText-left" href="./">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel consequat erat.</a>
                             </p>
 
@@ -172,9 +178,17 @@ function Main() {
                                 />
                             </div>
 
-                            <p className="card-title card-title-left"><a className="hoverText" href="./">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit. Vivamus leo nulla, sollicitudin sit amet suscipit. </a></p>
+
+                            <p className="card-title card-title-left">
+
+                                <div className="container-subscribe-only">
+
+                                    <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                </div>
+                                <a className="hoverText-left" href="./">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Vivamus leo nulla. </a></p>
 
 
                         </div>
@@ -186,24 +200,34 @@ function Main() {
 
                         <div className="grid-child">
                             <div className="img-article-left">
-                                <img className="img-style" src="./placeholder.png"
+                            <img className="img-style" src="./placeholder.png"
                                 />
                             </div>
 
-                            <p className="card-title card-title-left"><a className="hoverText" href="./"> Lorem
-                                ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut vel consequat erat. </a></p>
+                            <p className="card-title card-title-left">
+
+                                <div className="container-subscribe-only">
+
+                                    <p className="btn-subribe-only">SUBSCRIBER ONLY</p>
+
+                                </div>
+                                <a className="hoverText-left" href="./"> Lorem
+                                    ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ut vel consequat erat. </a></p>
 
                         </div>
 
 
                         <div className="grid-child">
                             <div className="img-article-left">
-                                <img className="img-style" src="./placeholder.png"
+                            <img className="img-style" src="./placeholder.png"
                                 />
                             </div>
 
-                            <p className="card-title card-title-left"><a className="hoverText" href="./">Lorem ipsum
+
+                            <p className="card-title card-title-left">
+
+                                <a className="hoverText-left" href="./">Lorem ipsum
                                 dolor sit amet, consectetur
                                 adipiscing elit.</a></p>
 
@@ -351,7 +375,7 @@ function Main() {
                 <img src="./placeholder.png"
                      className="card-img-top" alt="..."/>
                 <div className="card-body card-body-style">
-                    <h4 className="card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit
+                    <h4 className=""><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit
                         amet,
                         consectetur adipiscing elit.</a></h4>
 
@@ -382,7 +406,7 @@ function Main() {
                 <img src="./placeholder.png"
                      className="card-img-top" alt="..."/>
                 <div className="card-body card-body-style">
-                    <h4 className="card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit
+                    <h4 className=""><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor sit
                         amet,
                         consectetur
                         adipiscing elit. Aliquam urna.</a></h4>
@@ -425,7 +449,7 @@ function Main() {
                 <img src="./placeholder.png"
                      className="card-img-top" alt="..."/>
                 <div className="ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2 card-body card-body-style">
-                    <h4 className="card-title"><a href="./" className="hoverTextPrincipal">Lorem ipsum dolor sit
+                    <h4 className=""><a href="./" className="hoverTextPrincipal">Lorem ipsum dolor sit
                         amet,
                         consectetur adipiscing elit.</a></h4>
 
@@ -464,12 +488,13 @@ function Main() {
                     <img src="./placeholder.png"
                          className="card-img-top" alt="..."/>
                     <div className=" mt-md-0ps-xl-0 pb-2 card-body card-body-style">
-                        <h4 className=" card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor
+                        <h4 className=" "><a href="./" className="hoverTextPrincipal ">Lorem ipsum dolor
                             sit amet,
                             elit,ipsum dolor amet,
                             consectetur eli.</a></h4>
                         <p className="card-text">Lorem ipsum dolor sit amet,
-                            consectetur elit</p>
+                            consectetur adipiscing elit, ipsum dolor sit amet,
+                            consectetur adipiscing elit.</p>
 
                     </div>
 
@@ -507,7 +532,7 @@ function Main() {
                     </div>
 
                     <div
-                        className="block-photos border-b-photos pt-3 pb-3 pt-sm-3 pb-sm-3 pt-md-3 pb-md-3 pt-md-2 pt-lg-0  col-sm-5 col-md-5 col-lg-5 col-xl-12">
+                        className="block-photos border-b-photos pt-3 pb-3 pt-sm-3 pb-sm-3 pt-md-3 pb-md-3 pt-md-2 pt-lg-2  col-sm-5 col-md-5 col-lg-5 col-xl-12">
                         <div className=" pe-2 col-4">
                             <img src="./placeholder.png"
                                  className="card-img-top" alt="..."/>
@@ -560,7 +585,7 @@ function Main() {
                          style={{display: "inline-flex", flexWrap: "wrap"}}>
                         <div
                             className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2 card-body col-md-6 col-xl-6 ">
-                            <h4 className="card-title"><a href="./" className="hoverTextPrincipal ">Lorem ipsum
+                            <h4 className=""><a href="./" className="hoverTextPrincipal ">Lorem ipsum
                                 dolor sit
                                 amet,
                                 consectetur adipiscing elit.</a></h4>
@@ -634,7 +659,7 @@ function Main() {
                          style={{display: "inline-flex", flexWrap: "wrap"}}>
                         <div
                             className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-6 ">
-                            <h4 className="card-title">
+                            <h4 className="">
 
                                 <div className="container-subscribe-only">
 
@@ -710,7 +735,7 @@ function Main() {
                          style={{display: "inline-flex", flexWrap: "wrap"}}>
                         <div
                             className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-7 ">
-                            <h4 className="card-title">
+                            <h4 className="">
 
                                 <div className="container-subscribe-only">
 
@@ -786,7 +811,7 @@ function Main() {
                          style={{display: "inline-flex", flexWrap: "wrap"}}>
                         <div
                             className=" ps-sm-0 mt-sm-2 mt-md-0 ps-md-2 ps-lg-2 ps-xl-2  card-body col-md-6 col-xl-7 ">
-                            <h4 className="card-title">
+                            <h4 className="">
 
                                 <div className="container-subscribe-only">
 
