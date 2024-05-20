@@ -104,7 +104,7 @@
 
 .hoverText:hover , .list-item-top:hover,
 .item-headline:hover,.list-item-popular:hover,.title-card:hover
-,.hoverTextPrincipal:hover
+,.hoverTextPrincipal:hover,.hoverText-left:hover
 {
 
     color: #6d6def;
