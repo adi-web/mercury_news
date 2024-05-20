@@ -42,10 +42,15 @@
     padding-top: 15px;
 
 }
+.slick-slider
+{
+    z-index: -1;
+}
 
-.slick-slide,.slick-active, .slick-current
+.slick-slide,.slick-active, .slick-current,.slick-track
 {
     width: 40px;
+
 }
 
 .slick-prev:before,.slick-next:before
