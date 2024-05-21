@@ -136,7 +136,7 @@
     width: 0px;
     transition: width 0.2s;
     white-space: nowrap;
-    position: absolute;
+    position: fixed;
     background-color: white;
     left: 0px;
     opacity: unset;
@@ -217,8 +217,13 @@
     position: absolute;
     float: left;
     scrollbar-width: none;
-    z-index: 2;
 
+
+
+}
+.navbar
+{
+    position: unset;
 }
 .active-search::after
 {
@@ -234,7 +239,7 @@
     position: fixed;
     background-color: rgba(0,0,0,0.5);
     overflow-y: hidden;
-    z-index: 1;
+
     top:62px;
 }
 
@@ -325,7 +330,7 @@
     font-size: 1rem;
     font-weight: 700;
     color: #0a0908;;
-    position: absolute;
+
     padding-top: 0.5rem;
 
 }
@@ -337,7 +342,7 @@
     font-size: 1rem;
     font-weight: 900;
     color: #0a0908;
-    position: absolute;
+
     padding-top: 0.5rem;
     width: auto;
 
@@ -347,7 +352,7 @@
 
 .icon-weather > i{
     font-size: 1.9rem;
-    padding-left: 2.8rem;
+    padding-left: 0.8rem;
 }
 
 .active-title > img , .title-page >img
@@ -385,7 +390,7 @@
 {
     height: 64px;
     align-content: center;
-    position: relative;
+
     margin-left: 2vw;
 
 
