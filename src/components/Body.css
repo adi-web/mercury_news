@@ -42,10 +42,13 @@
     padding-top: 15px;
 
 }
-.slick-slider
+.slick-list
 {
     z-index: -1;
+
 }
+
+
 
 .slick-slide,.slick-active, .slick-current,.slick-track
 {
@@ -576,10 +579,10 @@
 
 
 
-.hoverText-left
-{
-    font-size: 1.1rem;
-}
+    .hoverText-left
+    {
+        font-size: 1.1rem;
+    }
     .card-title
     {
         margin-top: 10px;

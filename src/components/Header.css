@@ -4,6 +4,7 @@
 {
     max-width: -webkit-fill-available;
     padding: 0;
+    z-index: 1;
 
 
 }
@@ -216,6 +217,7 @@
     position: absolute;
     float: left;
     scrollbar-width: none;
+    z-index: 2;
 
 }
 .active-search::after
