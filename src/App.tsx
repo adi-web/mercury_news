@@ -19,7 +19,7 @@ function App() {
 
 <>
     {/* header  */}
-        <div className={alert ? 'disable' : 'header-container'}>
+        <div className={alert ? 'disabled' : 'header-container'}>
             <Header/>
         </div>
 
@@ -40,7 +40,7 @@ function App() {
     {/* alert of replica mercury news */}
 
     <div className={alert ? 'center-alert ' : 'alert-disable '}>
-        <div className={alert ? 'container-alert' : 'disable'}>
+        <div className={alert ? 'contaner-alert' : 'disable'}>
             <h3>
                 This is a replica of the Mercury News
             </h3>
